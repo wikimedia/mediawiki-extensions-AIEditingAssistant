@@ -1,0 +1,82 @@
+.ext-AIEditingAssistant-CommandExecution {
+	.ext-AIEditingAssistant-CommandExecution-header-label {
+		margin: 0;
+		font-weight: bold;
+		font-size: 1.2rem;
+		vertical-align: middle;
+	}
+
+	.ext-AIEditingAssistant-CommandExecution-header-description {
+		font-size: 0.9rem;
+		/* stylelint-disable-next-line */
+		color: gray;
+		display: block;
+	}
+
+	.ext-AIEditingAssistant-CommandExecution-body {
+		margin-top: 10px;
+
+		.ext-AIEditingAssistant-CommandExecution-body-original,
+		.ext-AIEditingAssistant-CommandExecution-body-final {
+			display: block;
+			border-left: 2px solid #bdbdbd;
+			padding-left: 10px;
+			margin: 10px 0 10px 0;
+			max-height: 500px;
+			overflow-y: auto;
+
+			&.ext-AIEditingAssistant-CommandExecution-body-final-error {
+				background-color: #f8d7da;
+				/* stylelint-disable-next-line */
+				color: red;
+			}
+		}
+	}
+}
+
+.ext-visualEditorPlus-inlineTextInspector-element-header {
+	margin-bottom: 10px;
+}
+
+.ext-AIEditingAssistant-CommandExecution-chat {
+	border-top: 2px solid #bdbdbd;
+	margin-top: 10px;
+
+	.oo-ui-actionFieldLayout {
+		/* stylelint-disable-next-line */
+		margin: 0 !important;
+	}
+
+	.ext-AIEditingAssistant-CommandExecution-chat-history {
+		max-height: 400px;
+		overflow-y: auto;
+
+		.ext-AIEditingAssistant-CommandExecution-chat-history-item {
+			display: block;
+			border-bottom: 1px solid #d9d6d6;
+			padding: 5px 0;
+			font-style: italic;
+		}
+	}
+
+	.ext-AIEditingAssistant-CommandExecution-chat-undo {
+		width: 100%;
+		text-align: right;
+	}
+}
+
+.ext-AIEditingAssistant-CommandSelection-button {
+	width: 100%;
+	display: block;
+	/* stylelint-disable-next-line */
+	margin: 0 !important;
+
+	a {
+		width: 100%;
+	}
+}
+
+.ext-AIEditingAssistant-CommandSelection-header {
+	margin-bottom: 20px;
+	font-size: 1.2em;
+}

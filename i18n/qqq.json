@@ -1,0 +1,56 @@
+{
+	"@metadata": {
+		"authors": [ "[http://www.hallowelt.com Hallo Welt! GmbH]" ]
+	},
+	"aieditingassistant-desc": "Description of AIEditingAssistant for [[Special:Version]]",
+	"aieditingassistant-ui-inspector-label": "Label for the VE inspector",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Button label",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Label for ask more button",
+
+	"aieditingassistant-config-provider-type-none": "Label for config provider type",
+	"aieditingassistant-provider-openai": "Label for provider",
+	"aieditingassistant-provider-ollama": "Label for provider",
+
+	"aieditingassistant-ui-command-expand": "AI command title",
+	"aieditingassistant-ui-command-summarize": "AI command title",
+	"aieditingassistant-ui-command-simplify": "AI command title",
+	"aieditingassistant-ui-command-paraphrase": "AI command",
+	"aieditingassistant-ui-command-check-grammar": "AI command",
+	"aieditingassistant-ui-command-remove-redundancy": "AI command",
+
+	"aieditingassistant-ui-description-expand": "AI command description",
+	"aieditingassistant-ui-description-summarize": "AI command description",
+	"aieditingassistant-ui-description-simplify": "AI command description",
+	"aieditingassistant-ui-description-paraphrase": "AI command description",
+	"aieditingassistant-ui-description-check-grammar": "AI command description",
+	"aieditingassistant-ui-description-remove-redundancy": "AI command description",
+
+	"aieditingassistant-command-definition-expand": "{{notranslate}}",
+	"aieditingassistant-command-definition-summarize": "{{notranslate}}",
+	"aieditingassistant-command-definition-simplify": "{{notranslate}}",
+	"aieditingassistant-command-definition-paraphrase": "{{notranslate}}",
+	"aieditingassistant-command-definition-check-grammar": "{{notranslate}}",
+	"aieditingassistant-command-definition-remove-redundancy": "{{notranslate}}",
+
+	"aieditingassistant-ui-commandexecution-final": "Field label for final text",
+	"aieditingassistant-ui-commandexecution-replace": "Button label",
+	"aieditingassistant-ui-commandexecution-retry": "Button label",
+	"aieditingassistant-ui-commandexecution-cancel": "Button label",
+	"aieditingassistant-ui-commandexecution-loading": "Loading message",
+	"aieditingassistant-ui-commandexecution-undo": "Button label",
+
+	"aieditingassistant-provider-failure": "AI-service-API error\n$1 - error message",
+	"aieditingassistant-provider-no-reponses": "AI-service no response message",
+
+	"aieditingassistant-initialization-command": "{{notranslate}}",
+	"aieditingassistant-config-provider-connection": "Label for config provider connection",
+	"aieditingassistant-config-provider-type": "Label for config provider type",
+
+	"aieditingassistant-ui-prompt-dialog-title": "Title for the assistant prompt dialog",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Cancel button label",
+	"aieditingassistant-ui-prompt-dialog-submit": "Replace button label",
+
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Header for command selection",
+	"aieditingassistant-ui-commandexecution-back": "Field label for back button",
+	"aieditingassistant-ui-commandexecution-original": "Field label for original text"
+}

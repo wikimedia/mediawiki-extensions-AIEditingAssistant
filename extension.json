@@ -1,0 +1,147 @@
+{
+	"name": "AIEditingAssistant",
+	"version": "1.0.2",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"[http://www.hallowelt.com Hallo Welt! GmbH]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:AIEditingAssistant",
+	"descriptionmsg": "aieditingassistant-desc",
+	"requires": {
+		"MediaWiki": ">= 1.39.0",
+		"extensions": {
+			"VisualEditor": "*",
+			"VisualEditorPlus": "*"
+		}
+	},
+	"MessagesDirs": {
+		"AIEditingAssistant": "i18n"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\AIEditingAssistant\\": "src/",
+		"MediaWiki\\Extension\\AIEditingAssistant\\Tests\\": "tests/phpunit"
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.aIEditingAssistant.inspector"
+			]
+		},
+		"AIEditingAssistant": {
+			"Providers": {
+				"open-ai": {
+					"class": "MediaWiki\\Extension\\AIEditingAssistant\\Provider\\OpenAI",
+					"services": [ "HttpRequestFactory" ]
+				},
+				"ollama": {
+					"class": "MediaWiki\\Extension\\AIEditingAssistant\\Provider\\Ollama",
+					"services": [ "HttpRequestFactory" ]
+				}
+			}
+		},
+		"BlueSpiceFoundation": {
+			"ConfigDefinitionRegistry": {
+				"AIEditingAssistantActiveProvider": "MediaWiki\\Extension\\AIEditingAssistant\\ConfigDefinition\\ProviderType::getInstance",
+				"AIEditingAssistantActiveProviderConnection": "MediaWiki\\Extension\\AIEditingAssistant\\ConfigDefinition\\ProviderConnection::getInstance"
+			}
+		}
+	},
+	"ResourceModules": {
+		"ext.aIEditingAssistant.bootstrap": {
+			"scripts": [
+				"bootstrap.js"
+			],
+			"dependencies": [
+				"oojs"
+			]
+		},
+		"ext.aIEditingAssistant.inspector": {
+			"scripts": [
+				"Bot.js",
+				"Commands.js",
+				"ui/CommandExecution.js",
+				"ui/CommandSelectionPage.js",
+				"ui/PromptBooklet.js",
+				"ui/PromptDialog.js",
+				"ui/Inspector.js"
+			],
+			"styles": [
+				"ext.aIEditingAssistant.less"
+			],
+			"dependencies": [
+				"oojs-ui",
+				"ext.visualEditorPlus.inlineTextInspector",
+				"ext.aIEditingAssistant.bootstrap"
+			],
+			"messages": [
+				"aieditingassistant-ui-inspector-label",
+				"aieditingassistant-ui-commandexecution-ask-more-submit",
+				"aieditingassistant-ui-commandexecution-ask-more-label",
+				"aieditingassistant-ui-command-expand",
+				"aieditingassistant-ui-command-summarize",
+				"aieditingassistant-ui-command-simplify",
+				"aieditingassistant-ui-command-paraphrase",
+				"aieditingassistant-ui-command-check-grammar",
+				"aieditingassistant-ui-command-remove-redundancy",
+				"aieditingassistant-command-definition-expand",
+				"aieditingassistant-command-definition-summarize",
+				"aieditingassistant-command-definition-simplify",
+				"aieditingassistant-command-definition-paraphrase",
+				"aieditingassistant-command-definition-check-grammar",
+				"aieditingassistant-command-definition-remove-redundancy",
+				"aieditingassistant-ui-description-expand",
+				"aieditingassistant-ui-description-summarize",
+				"aieditingassistant-ui-description-simplify",
+				"aieditingassistant-ui-description-paraphrase",
+				"aieditingassistant-ui-description-check-grammar",
+				"aieditingassistant-ui-description-remove-redundancy",
+				"aieditingassistant-ui-commandexecution-original",
+				"aieditingassistant-ui-commandexecution-final",
+				"aieditingassistant-ui-commandexecution-replace",
+				"aieditingassistant-ui-commandexecution-retry",
+				"aieditingassistant-ui-commandexecution-cancel",
+				"aieditingassistant-ui-commandexecution-loading",
+				"aieditingassistant-ui-prompt-dialog-title",
+				"aieditingassistant-ui-prompt-dialog-cancel",
+				"aieditingassistant-ui-prompt-dialog-submit",
+				"aieditingassistant-ui-prompt-dialog-command-selection-header",
+				"aieditingassistant-ui-commandexecution-back",
+				"aieditingassistant-ui-commandexecution-undo"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "AIEditingAssistant/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "addActiveProviderConfig"
+	},
+	"HookHandlers": {
+		"addActiveProviderConfig": {
+			"class": "MediaWiki\\Extension\\AIEditingAssistant\\AddActiveProviderConfig"
+		}
+	},
+	"config": {
+		"AIEditingAssistantActiveProvider": {
+			"value": null,
+			"description": "Active AI provider for the AI Editing Assistant. One of the keys of `AIEditingAssistantProviders` attribute"
+		},
+		"AIEditingAssistantActiveProviderConnection": {
+			"value": "",
+			"description": "Connection parameters"
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"RestRoutes": [
+		{
+			"method": "POST",
+			"path": "/aieditingassistant/v1/prompt",
+			"class": "MediaWiki\\Extension\\AIEditingAssistant\\Rest\\PromptHandler",
+			"services": [ "AIEditingAssistant.ProviderFactory" ]
+		}
+	],
+	"manifest_version": 2
+}
