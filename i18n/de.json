@@ -1,54 +1,47 @@
 {
 	"@metadata": {
-		"authors": [ "[http://www.hallowelt.com Hallo Welt! GmbH]" ]
+		"authors": [
+			"[http://www.hallowelt.com Hallo Welt! GmbH]"
+		]
 	},
 	"aieditingassistant-desc": "KI-unterstützte Bearbeitung für VisualEditor",
 	"aieditingassistant-ui-inspector-label": "KI-Schreibassistent",
 	"aieditingassistant-ui-commandexecution-ask-more-submit": "Senden",
 	"aieditingassistant-ui-commandexecution-ask-more-label": "Sage der KI, wie sie den Vorschlag verbessern kann",
-
 	"aieditingassistant-config-provider-type-none": "Keiner",
 	"aieditingassistant-provider-openai": "OpenAI",
 	"aieditingassistant-provider-ollama": "Ollama",
-
 	"aieditingassistant-ui-command-expand": "Text verlängern",
 	"aieditingassistant-ui-command-summarize": "Text zusammenfassen",
 	"aieditingassistant-ui-command-simplify": "Text kürzen",
 	"aieditingassistant-ui-command-paraphrase": "Inhaltlich verbessern",
 	"aieditingassistant-ui-command-check-grammar": "Rechtschreibung korrigieren",
 	"aieditingassistant-ui-command-remove-redundancy": "Sprache vereinfachen",
-
 	"aieditingassistant-ui-description-expand": "Erweitert den angegebenen Text um weitere Details und Informationen.",
 	"aieditingassistant-ui-description-summarize": "Fasst den gegebenen Text in einem prägnanten und kurzen Absatz zusammen.",
 	"aieditingassistant-ui-description-simplify": "Vereinfacht den gegebenen Text und macht ihn leichter verständlich und nachvollziehbar.",
 	"aieditingassistant-ui-description-paraphrase": "Formuliert den gegebenen Text mit anderen Wörtern neu, behält aber die ursprüngliche Bedeutung bei.",
 	"aieditingassistant-ui-description-check-grammar": "Überprüft die Grammatik und Zeichensetzung im vorliegenden Text und stellt sicher, dass er korrekt ist.",
 	"aieditingassistant-ui-description-remove-redundancy": "Entfernt unnötige oder redundante Informationen aus dem angegebenen Text.",
-
 	"aieditingassistant-command-definition-expand": "Erweitere diesen Text durch Verlängerung",
 	"aieditingassistant-command-definition-summarize": "Fasse diesen Text in einem prägnanten Absatz zusammen",
 	"aieditingassistant-command-definition-simplify": "Vereinfache diesen Text, damit er leicht zu verstehen ist",
 	"aieditingassistant-command-definition-paraphrase": "Formuliere diesen Text stilistisch neu",
 	"aieditingassistant-command-definition-check-grammar": "Korrigiere Grammatik und Zeichensetzung in diesem Text",
 	"aieditingassistant-command-definition-remove-redundancy": "Entferne alle unnötigen oder redundanten Informationen aus diesem Text",
-
 	"aieditingassistant-ui-commandexecution-final": "Ersatzvorschlag",
 	"aieditingassistant-ui-commandexecution-replace": "Ersetzen",
 	"aieditingassistant-ui-commandexecution-retry": "Wiederholen",
 	"aieditingassistant-ui-commandexecution-cancel": "Abbrechen",
 	"aieditingassistant-ui-commandexecution-loading": "Erstellung läuft...",
 	"aieditingassistant-ui-commandexecution-undo": "Letzten Prompt rückgängig machen",
-
 	"aieditingassistant-provider-failure": "Die Ausführung der Anfrage ist fehlgeschlagen: $1",
 	"aieditingassistant-provider-no-reponses": "Es konnten keine Vorschläge abgerufen werden. Bitte versuche es erneut.",
-
 	"aieditingassistant-config-provider-connection": "Verbindungsparameter",
 	"aieditingassistant-config-provider-type": "Anbieter",
-
 	"aieditingassistant-ui-prompt-dialog-title": "KI-Schreibassistent",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Abbrechen",
 	"aieditingassistant-ui-prompt-dialog-submit": "Ersetzen",
-
 	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Anweisung auswählen",
 	"aieditingassistant-ui-commandexecution-back": "Zurück zur Auswahl",
 	"aieditingassistant-ui-commandexecution-original": "Originaltext"

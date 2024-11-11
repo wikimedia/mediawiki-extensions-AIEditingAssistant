@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": [ "[http://www.hallowelt.com Hallo Welt! GmbH]" ]
+		"authors": [
+			"[http://www.hallowelt.com Hallo Welt! GmbH]"
+		]
 	},
 	"aieditingassistant-ui-commandexecution-ask-more-label": "Sagen Sie der KI, wie sie den Vorschlag verbessern kann",
 	"aieditingassistant-provider-no-reponses": "Es konnten keine Vorschläge abgerufen werden. Bitte versuchen Sie es erneut."
