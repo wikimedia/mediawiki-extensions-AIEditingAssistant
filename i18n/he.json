@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"aieditingassistant-desc": "עריכה בסיוע בינה מלאכותית בעורך החזותי",
+	"aieditingassistant-ui-inspector-label": "עוזר עריכה באמצעות בינה מלאכותית",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "שליחה",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "נא ספר לבינה המלאכותית אין לשפר את ההצעה",
+	"aieditingassistant-config-provider-type-none": "אין",
+	"aieditingassistant-provider-ollama": "אולאמה",
+	"aieditingassistant-ui-command-expand": "להאריך",
+	"aieditingassistant-ui-command-summarize": "לסכם",
+	"aieditingassistant-ui-command-simplify": "לקצר",
+	"aieditingassistant-ui-command-paraphrase": "לשפר את הכתיבה",
+	"aieditingassistant-ui-command-check-grammar": "לתקן דקדוק ואיות",
+	"aieditingassistant-ui-command-remove-redundancy": "לפשט את השפה",
+	"aieditingassistant-ui-description-expand": "הרחבת הטקסט הנתון באמצעות אספקה של עוד פרטים ומידע.",
+	"aieditingassistant-ui-description-summarize": "סיכום הטקסט הנתון לפסקה תמציתית וקצרה.",
+	"aieditingassistant-ui-description-simplify": "פישוט הטקסט הנתון, כדי שיהיה קל יותר לקליטה ולהבנה.",
+	"aieditingassistant-ui-description-paraphrase": "ניסוח מחדש של הטקסט הנתון במילים אחרות תוך שמירה על המשמעות המקורית.",
+	"aieditingassistant-ui-description-check-grammar": "בדיקת הדקדוק והפיסוק בטקסט הנתון, למען הבטחת נכונות.",
+	"aieditingassistant-ui-description-remove-redundancy": "הסרת מידע מיותר או חוזר על עצמו מהטקסט הנתון.",
+	"aieditingassistant-ui-commandexecution-final": "החלפה מוצעת",
+	"aieditingassistant-ui-commandexecution-replace": "להחליף",
+	"aieditingassistant-ui-commandexecution-retry": "לנסות שוב",
+	"aieditingassistant-ui-commandexecution-cancel": "ביטול",
+	"aieditingassistant-ui-commandexecution-loading": "יצירה...",
+	"aieditingassistant-ui-commandexecution-undo": "ביטול ההנחיה האחרונה",
+	"aieditingassistant-provider-failure": "ביצוע הבקשה נכשל: $1",
+	"aieditingassistant-provider-no-reponses": "לא היה אפשר לאחזר שום הצעה, נא לנסות שוב",
+	"aieditingassistant-config-provider-connection": "פרמטרים של חיבור",
+	"aieditingassistant-config-provider-type": "סוג ספק",
+	"aieditingassistant-ui-prompt-dialog-title": "עוזר עריכה באמצעות בינה מלאכותית",
+	"aieditingassistant-ui-prompt-dialog-cancel": "ביטול",
+	"aieditingassistant-ui-prompt-dialog-submit": "החלפה",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "בחירת פקודה",
+	"aieditingassistant-ui-commandexecution-back": "חזרה לבחירת הפקודה",
+	"aieditingassistant-ui-commandexecution-original": "הטקסט המקורי"
+}
