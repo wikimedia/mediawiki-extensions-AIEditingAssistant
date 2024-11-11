@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"aieditingassistant-desc": "Нагледен уредник потпомогнат од ВИ",
+	"aieditingassistant-ui-inspector-label": "ВИ-помошник за уредување",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Испрати",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Кажете му на ВИ како да го подобри предлогот",
+	"aieditingassistant-config-provider-type-none": "Нема",
+	"aieditingassistant-ui-command-expand": "Направи текстот поопширен",
+	"aieditingassistant-ui-command-summarize": "Резимирај ја содржината",
+	"aieditingassistant-ui-command-simplify": "Скрати го текстот",
+	"aieditingassistant-ui-command-paraphrase": "Подобри ја содржината",
+	"aieditingassistant-ui-command-check-grammar": "Поправи граматика и правопис",
+	"aieditingassistant-ui-command-remove-redundancy": "Упросто го јазикот",
+	"aieditingassistant-ui-description-expand": "Го проширува дадениот текст со повеќе поединости и информации.",
+	"aieditingassistant-ui-description-summarize": "Го резимира дадениот текст во краток и концизен пасус.",
+	"aieditingassistant-ui-description-simplify": "Упростува даден текст, со што тој станува полесен за разбирање и усвојување.",
+	"aieditingassistant-ui-description-paraphrase": "Го пресрочува дадениот текст со поинакви зборови, притоа задржувајќи ја смислата.",
+	"aieditingassistant-ui-description-check-grammar": "Ја проверува граматиката и интерпункцијата на дадениот текст, обезбедувајќи исправност.",
+	"aieditingassistant-ui-description-remove-redundancy": "Отстранува непотребни или излишни информации од даден текст.",
+	"aieditingassistant-ui-commandexecution-final": "Предложена замена",
+	"aieditingassistant-ui-commandexecution-replace": "Замени",
+	"aieditingassistant-ui-commandexecution-retry": "Пробај пак",
+	"aieditingassistant-ui-commandexecution-cancel": "Откажи",
+	"aieditingassistant-ui-commandexecution-loading": "Се создава...",
+	"aieditingassistant-ui-commandexecution-undo": "Отповикај последен предлог",
+	"aieditingassistant-provider-failure": "Не успеав да го извршам барањето: $1",
+	"aieditingassistant-provider-no-reponses": "Не успеав да добијам предлози. Обидете се повторно",
+	"aieditingassistant-config-provider-connection": "Параметри за поврзување",
+	"aieditingassistant-config-provider-type": "Вид на услужник",
+	"aieditingassistant-ui-prompt-dialog-title": "ВИ-помошник за уредување",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Откажи",
+	"aieditingassistant-ui-prompt-dialog-submit": "Замени",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Изберете наредба",
+	"aieditingassistant-ui-commandexecution-back": "Назад на изборот на наредби",
+	"aieditingassistant-ui-commandexecution-original": "Изворен текст"
+}

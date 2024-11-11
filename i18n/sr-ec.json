@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Пошаљи",
+	"aieditingassistant-config-provider-type-none": "Нема",
+	"aieditingassistant-ui-command-simplify": "Учини краћим",
+	"aieditingassistant-ui-command-remove-redundancy": "Поједностави језик",
+	"aieditingassistant-ui-commandexecution-final": "Предложена замена",
+	"aieditingassistant-ui-commandexecution-replace": "Замени",
+	"aieditingassistant-ui-commandexecution-retry": "Покушај поново",
+	"aieditingassistant-ui-commandexecution-cancel": "Откажи",
+	"aieditingassistant-ui-commandexecution-loading": "Генерисање...",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Откажи",
+	"aieditingassistant-ui-prompt-dialog-submit": "Замени",
+	"aieditingassistant-ui-commandexecution-original": "Оригинални текст"
+}

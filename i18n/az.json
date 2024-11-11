@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Əkrəm Cəfər"
+		]
+	},
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Göndər",
+	"aieditingassistant-ui-command-expand": "Mətni uzat",
+	"aieditingassistant-ui-commandexecution-retry": "Yenidən cəhd et",
+	"aieditingassistant-ui-commandexecution-cancel": "İmtina",
+	"aieditingassistant-ui-commandexecution-loading": "Yaradılır...",
+	"aieditingassistant-ui-prompt-dialog-title": "Sİ Redaktə Assistenti"
+}
