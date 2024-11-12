@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "보내기",
+	"aieditingassistant-config-provider-type-none": "없음",
+	"aieditingassistant-ui-command-check-grammar": "문법 및 철자 수정",
+	"aieditingassistant-ui-commandexecution-replace": "바꾸기",
+	"aieditingassistant-ui-commandexecution-retry": "다시 시도",
+	"aieditingassistant-ui-commandexecution-cancel": "취소",
+	"aieditingassistant-ui-commandexecution-loading": "생성 중...",
+	"aieditingassistant-provider-failure": "요청 실행 실패: $1",
+	"aieditingassistant-ui-prompt-dialog-cancel": "취소",
+	"aieditingassistant-ui-prompt-dialog-submit": "바꾸기"
+}

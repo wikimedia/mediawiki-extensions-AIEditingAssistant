@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"আফতাবুজ্জামান"
+		]
+	},
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "পাঠান",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "পরামর্শটি কীভাবে উন্নত করা যায় তা এআই-কে বলুন",
+	"aieditingassistant-config-provider-type-none": "কিছু নয়",
+	"aieditingassistant-provider-openai": "ওপেনএআই",
+	"aieditingassistant-provider-ollama": "ওল্লামা",
+	"aieditingassistant-ui-command-expand": "দীর্ঘতর করুন",
+	"aieditingassistant-ui-command-simplify": "ছোট করুন",
+	"aieditingassistant-ui-command-remove-redundancy": "ভাষা সহজ করুন",
+	"aieditingassistant-ui-commandexecution-replace": "প্রতিস্থাপন করুন",
+	"aieditingassistant-ui-commandexecution-retry": "পুনঃচেষ্টা করুন",
+	"aieditingassistant-ui-commandexecution-cancel": "বাতিল",
+	"aieditingassistant-ui-commandexecution-loading": "উৎপন্ন হচ্ছে...",
+	"aieditingassistant-config-provider-type": "প্রদানকারীর ধরন",
+	"aieditingassistant-ui-prompt-dialog-title": "এআই সম্পাদনা সহকারী"
+}
