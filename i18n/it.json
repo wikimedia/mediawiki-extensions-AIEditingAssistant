@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Invia",
+	"aieditingassistant-config-provider-type-none": "Nessuno",
+	"aieditingassistant-ui-commandexecution-replace": "Sostituisci",
+	"aieditingassistant-ui-commandexecution-retry": "Riprova",
+	"aieditingassistant-ui-commandexecution-cancel": "Annulla",
+	"aieditingassistant-config-provider-connection": "Parametri di connessione",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Annulla",
+	"aieditingassistant-ui-prompt-dialog-submit": "Sostituisci",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Seleziona un comando",
+	"aieditingassistant-ui-commandexecution-original": "Testo originale"
+}
