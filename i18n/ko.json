@@ -13,5 +13,6 @@
 	"aieditingassistant-ui-commandexecution-loading": "생성 중...",
 	"aieditingassistant-provider-failure": "요청 실행 실패: $1",
 	"aieditingassistant-ui-prompt-dialog-cancel": "취소",
-	"aieditingassistant-ui-prompt-dialog-submit": "바꾸기"
+	"aieditingassistant-ui-prompt-dialog-submit": "바꾸기",
+	"aieditingassistant-ui-commandexecution-original": "원문"
 }
