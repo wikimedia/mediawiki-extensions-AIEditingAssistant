@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"aieditingassistant-ui-command-summarize": "Ամփոփել բովանդակությունը",
+	"aieditingassistant-ui-command-check-grammar": "Ուղղել քերականությունը և ուղղագրությունը",
+	"aieditingassistant-ui-commandexecution-replace": "Փոխարինել",
+	"aieditingassistant-ui-commandexecution-cancel": "Չեղարկել",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Չեղարկել",
+	"aieditingassistant-ui-commandexecution-original": "Բնօրինակ տեքստ"
+}

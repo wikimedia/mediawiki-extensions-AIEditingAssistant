@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "بھیڄو",
+	"aieditingassistant-config-provider-type-none": "کوئی وی کائنی",
+	"aieditingassistant-ui-commandexecution-retry": "ولدا کوشش کرو",
+	"aieditingassistant-ui-commandexecution-cancel": "منسوخ",
+	"aieditingassistant-ui-prompt-dialog-cancel": "منسوخ",
+	"aieditingassistant-ui-prompt-dialog-submit": "بدل گھنو"
+}

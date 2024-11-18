@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aline Goetz"
+		]
+	},
+	"aieditingassistant-ui-inspector-label": "KI-Schreibassistent",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "senden",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Schlage der KI vor, wie sie den Vorschlag verbessern könnte.",
+	"aieditingassistant-config-provider-type-none": "keiner",
+	"aieditingassistant-ui-command-summarize": "Text zusammenfassen",
+	"aieditingassistant-ui-command-simplify": "Text kürzen",
+	"aieditingassistant-ui-command-check-grammar": "Grammatik- und Rechtschreibfehler korrigieren",
+	"aieditingassistant-ui-command-remove-redundancy": "Sprache vereinfachen"
+}
