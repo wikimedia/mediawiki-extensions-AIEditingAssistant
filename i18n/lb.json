@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Robby",
 			"Volvox"
 		]
 	},
@@ -8,14 +9,18 @@
 	"aieditingassistant-ui-inspector-label": "KI-Ännerungsassistent",
 	"aieditingassistant-ui-commandexecution-ask-more-submit": "Schécken",
 	"aieditingassistant-ui-commandexecution-ask-more-label": "Sot der KI, wéi de Virschlag ka verbessert ginn",
+	"aieditingassistant-config-provider-type-none": "Keen",
 	"aieditingassistant-ui-command-expand": "Méi laang maachen",
 	"aieditingassistant-ui-command-summarize": "Inhalt resüméieren",
 	"aieditingassistant-ui-command-simplify": "Kierzen",
+	"aieditingassistant-ui-command-paraphrase": "Schreiwe verbesseren",
 	"aieditingassistant-ui-command-check-grammar": "Grammaire an Orthografie verbesseren",
 	"aieditingassistant-ui-command-remove-redundancy": "Sprooch vereinfachen",
+	"aieditingassistant-ui-description-summarize": "Den Text gëtt an engem präzisen a kuerzen Abschnitt resuméiert.",
 	"aieditingassistant-ui-commandexecution-replace": "Ersetzen",
 	"aieditingassistant-ui-commandexecution-retry": "Nach eng Kéier probéieren",
 	"aieditingassistant-ui-commandexecution-cancel": "Ofbriechen",
+	"aieditingassistant-ui-commandexecution-loading": "Generéieren ...",
 	"aieditingassistant-ui-prompt-dialog-title": "KI-Ännerungsassistent",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Ofbriechen",
 	"aieditingassistant-ui-prompt-dialog-submit": "Ersetzen",
