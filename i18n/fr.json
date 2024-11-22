@@ -1,9 +1,41 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mahabarata",
 			"SleaY"
 		]
 	},
+	"aieditingassistant-desc": "Édition assistée par IA pour VisualEditor",
+	"aieditingassistant-ui-inspector-label": "Assistant d'édition IA",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Envoyer",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Dites à l'IA comment améliorer la suggestion",
+	"aieditingassistant-config-provider-type-none": "Aucun",
+	"aieditingassistant-ui-command-expand": "Rallonger",
+	"aieditingassistant-ui-command-summarize": "Résumer le contenu",
+	"aieditingassistant-ui-command-simplify": "Rendre plus court",
+	"aieditingassistant-ui-command-paraphrase": "Améliorer l'écriture",
+	"aieditingassistant-ui-command-check-grammar": "Corriger la grammaire et l'orthographe",
+	"aieditingassistant-ui-command-remove-redundancy": "Simplifier le langage",
+	"aieditingassistant-ui-description-expand": "Développe le texte fourni en fournissant plus de détails et d’informations.",
+	"aieditingassistant-ui-description-summarize": "Résume le texte fourni en un paragraphe concis et bref.",
+	"aieditingassistant-ui-description-simplify": "Simplifie le texte fourni, le rendant plus facile à comprendre.",
+	"aieditingassistant-ui-description-paraphrase": "Reformule le texte fourni en utilisant des mots différents tout en conservant le sens original.",
+	"aieditingassistant-ui-description-check-grammar": "Vérifie la grammaire et la ponctuation du texte fourni, garantissant ainsi son exactitude.",
+	"aieditingassistant-ui-description-remove-redundancy": "Supprime les informations inutiles ou redondantes du texte fourni.",
+	"aieditingassistant-ui-commandexecution-final": "Remplacement suggéré",
+	"aieditingassistant-ui-commandexecution-replace": "Remplacer",
+	"aieditingassistant-ui-commandexecution-retry": "Réessayer",
 	"aieditingassistant-ui-commandexecution-cancel": "Annuler",
+	"aieditingassistant-ui-commandexecution-loading": "En cours...",
+	"aieditingassistant-ui-commandexecution-undo": "Annuler la dernière proposition",
+	"aieditingassistant-provider-failure": "Échec de l'exécution de la requête : $1",
+	"aieditingassistant-provider-no-reponses": "Impossible de récupérer des suggestions, veuillez réessayer",
+	"aieditingassistant-config-provider-connection": "Paramètres de connexion",
+	"aieditingassistant-config-provider-type": "Type de fournisseur",
+	"aieditingassistant-ui-prompt-dialog-title": "Assistant d'édition IA",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Annuler",
+	"aieditingassistant-ui-prompt-dialog-submit": "Remplacer",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Sélectionnez une commande",
+	"aieditingassistant-ui-commandexecution-back": "Retour à la sélection des commandes",
 	"aieditingassistant-ui-commandexecution-original": "Texte d’origine"
 }
