@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fotis A."
+		]
+	},
+	"aieditingassistant-desc": "Επεξεργασία με τη βοήθεια AI για το VisualEditor",
+	"aieditingassistant-ui-inspector-label": "Βοηθός επεξεργασίας AI",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Αποστολή",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Πείτε στην τεχνητή νοημοσύνη πώς να βελτιώσετε την πρόταση",
+	"aieditingassistant-ui-command-check-grammar": "Διορθώστε τη γραμματική και την ορθογραφία",
+	"aieditingassistant-ui-command-remove-redundancy": "Απλοποιήστε τη γλώσσα",
+	"aieditingassistant-ui-description-expand": "Επεκτείνει το κείμενο που δίνεται παρέχοντας περισσότερες λεπτομέρειες και πληροφορίες.",
+	"aieditingassistant-ui-description-check-grammar": "Ελέγχει τη γραμματική και τη στίξη στο κείμενο που δίνεται, διασφαλίζοντας την ορθότητα.",
+	"aieditingassistant-ui-description-remove-redundancy": "Αφαίρεση περιττών πληροφοριών από το συγκεκριμένο κείμενο.",
+	"aieditingassistant-ui-commandexecution-final": "Προτεινόμενη αντικατάσταση",
+	"aieditingassistant-ui-commandexecution-undo": "Αναίρεση από την τελευταία προειδοποίηση",
+	"aieditingassistant-provider-failure": "Απέτυχε η εκτέλεση του αιτήματος: $1",
+	"aieditingassistant-provider-no-reponses": "Αποτυχία ανάκτησης προτάσεων, δοκιμάστε ξανά",
+	"aieditingassistant-config-provider-connection": "Παράμετροι σύνδεσης",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Επιλέξτε εντολή",
+	"aieditingassistant-ui-commandexecution-back": "Επιστροφή στο μενού εντολών",
+	"aieditingassistant-ui-commandexecution-original": "Αρχικό κείμενο"
+}
