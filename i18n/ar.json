@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cigaryno"
+		]
+	},
+	"aieditingassistant-desc": "التحرير بمساعدة الذكاء الاصطناعي لـ VisualEditor",
+	"aieditingassistant-ui-inspector-label": "مساعد التحرير بالذكاء الاصطناعي",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "أرسل",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "أخبر الذكاء الاصطناعي كيفية تحسين الاقتراح",
+	"aieditingassistant-config-provider-type-none": "لا شيء",
+	"aieditingassistant-ui-command-expand": "اجعلها أطول",
+	"aieditingassistant-ui-command-summarize": "تلخيص المحتوى",
+	"aieditingassistant-ui-command-simplify": "اجعلها أقصر",
+	"aieditingassistant-ui-command-paraphrase": "تحسين الكتابة",
+	"aieditingassistant-ui-command-check-grammar": "إصلاح النحو والكتابة",
+	"aieditingassistant-ui-command-remove-redundancy": "تبسيط اللغة",
+	"aieditingassistant-ui-description-expand": "يوسع النص المقدم عن طريق توفير مزيد من التفاصيل والمعلومات.",
+	"aieditingassistant-ui-description-summarize": "يختصر النص المقدم في فقرة موجزة وقصيرة.",
+	"aieditingassistant-ui-commandexecution-final": "الإستبدال المقترح",
+	"aieditingassistant-ui-commandexecution-replace": "استبدال",
+	"aieditingassistant-ui-commandexecution-retry": "إعادة المحاولة",
+	"aieditingassistant-ui-commandexecution-cancel": "إلغاء",
+	"aieditingassistant-ui-commandexecution-loading": "جاري الإنتاج...",
+	"aieditingassistant-ui-commandexecution-undo": "إبطال آخر طلب",
+	"aieditingassistant-provider-failure": "فشل تنفيذ الطلب: $1",
+	"aieditingassistant-provider-no-reponses": "فشل في استرداد أي اقتراحات، يرجى المحاولة مرة أخرى",
+	"aieditingassistant-config-provider-connection": "معلمات الاتصال",
+	"aieditingassistant-config-provider-type": "نوع المزود",
+	"aieditingassistant-ui-prompt-dialog-title": "مساعد التحرير بالذكاء الاصطناعي",
+	"aieditingassistant-ui-prompt-dialog-cancel": "إلغاء",
+	"aieditingassistant-ui-prompt-dialog-submit": "استبدال",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "إختيار أمر",
+	"aieditingassistant-ui-commandexecution-back": "العودة إلى اختيار الأمر",
+	"aieditingassistant-ui-commandexecution-original": "النص الأصلي"
+}
