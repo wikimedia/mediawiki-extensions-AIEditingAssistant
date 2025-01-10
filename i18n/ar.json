@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cigaryno"
+			"Cigaryno",
+			"Meno25"
 		]
 	},
 	"aieditingassistant-desc": "التحرير بمساعدة الذكاء الاصطناعي لـ VisualEditor",
@@ -17,6 +18,9 @@
 	"aieditingassistant-ui-command-remove-redundancy": "تبسيط اللغة",
 	"aieditingassistant-ui-description-expand": "يوسع النص المقدم عن طريق توفير مزيد من التفاصيل والمعلومات.",
 	"aieditingassistant-ui-description-summarize": "يختصر النص المقدم في فقرة موجزة وقصيرة.",
+	"aieditingassistant-ui-description-simplify": "يبسط النص المقدم، مما يجعل فهمه واستيعابه أسهل.",
+	"aieditingassistant-ui-description-paraphrase": "إعادة صياغة النص المعطى باستخدام كلمات مختلفة مع الاحتفاظ بالمعنى الأصلي.",
+	"aieditingassistant-ui-description-check-grammar": "التحقق من القواعد النحوية وعلامات الترقيم في النص المقدم، والتأكد من صحتها.",
 	"aieditingassistant-ui-description-remove-redundancy": "إزالة المعلومات غير الضرورية أو الزائدة من النص المقدم.",
 	"aieditingassistant-ui-commandexecution-final": "الإستبدال المقترح",
 	"aieditingassistant-ui-commandexecution-replace": "استبدال",
