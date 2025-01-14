@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"aieditingassistant-desc": "VisualEditor için AI destekli düzenleme",
+	"aieditingassistant-ui-inspector-label": "AI Düzenleme Asistanı",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Gönder",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Yapay zekaya öneriyi nasıl iyileştireceğini söyleyin",
+	"aieditingassistant-config-provider-type-none": "Hiçbiri",
+	"aieditingassistant-ui-command-expand": "Daha uzun yap",
+	"aieditingassistant-ui-command-summarize": "İçeriği özetle",
+	"aieditingassistant-ui-command-simplify": "Daha kısa yap",
+	"aieditingassistant-ui-command-paraphrase": "Yazmayı geliştirin",
+	"aieditingassistant-ui-command-check-grammar": "Dilbilgisi ve yazımı düzeltin",
+	"aieditingassistant-ui-command-remove-redundancy": "Dili basitleştirin",
+	"aieditingassistant-ui-description-expand": "Verilen metni daha fazla ayrıntı ve bilgi sağlayarak genişletir.",
+	"aieditingassistant-ui-description-summarize": "Verilen metni öz ve kısa bir paragrafta özetler.",
+	"aieditingassistant-ui-description-simplify": "Verilen metni basitleştirir, anlaşılmasını ve kavranmasını kolaylaştırır.",
+	"aieditingassistant-ui-description-paraphrase": "Verilen metni, metnin özgün anlamını koruyarak farklı kelimelerle yeniden ifade eder.",
+	"aieditingassistant-ui-description-check-grammar": "Verilen metinde dilbilgisi ve noktalama işaretlerini kontrol ederek metnin doğruluğunu sağlar.",
+	"aieditingassistant-ui-description-remove-redundancy": "Verilen metinden gereksiz veya tekrar eden bilgileri kaldırır.",
+	"aieditingassistant-ui-commandexecution-final": "Önerilen değiştirme",
+	"aieditingassistant-ui-commandexecution-replace": "Değiştir",
+	"aieditingassistant-ui-commandexecution-retry": "Tekrar dene",
+	"aieditingassistant-ui-commandexecution-cancel": "İptal",
+	"aieditingassistant-ui-commandexecution-loading": "Oluşturuluyor...",
+	"aieditingassistant-ui-commandexecution-undo": "Son istemi geri al",
+	"aieditingassistant-provider-failure": "İstek yerine getirilemedi: $1",
+	"aieditingassistant-provider-no-reponses": "Herhangi bir öneri alınamadı, lütfen tekrar deneyin",
+	"aieditingassistant-config-provider-connection": "Bağlantı parametreleri",
+	"aieditingassistant-config-provider-type": "Sağlayıcı türü",
+	"aieditingassistant-ui-prompt-dialog-title": "AI Düzenleme Asistanı",
+	"aieditingassistant-ui-prompt-dialog-cancel": "İptal",
+	"aieditingassistant-ui-prompt-dialog-submit": "Değiştir",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Bir komut seçin",
+	"aieditingassistant-ui-commandexecution-back": "Komut seçimine geri dön",
+	"aieditingassistant-ui-commandexecution-original": "Özgün metin"
+}
