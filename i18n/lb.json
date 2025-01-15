@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Robby",
 			"Volvox"
 		]
 	},
@@ -19,5 +20,9 @@
 	"aieditingassistant-ui-prompt-dialog-title": "KI-Ännerungsassistent",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Ofbriechen",
 	"aieditingassistant-ui-prompt-dialog-submit": "Ersetzen",
-	"aieditingassistant-ui-commandexecution-original": "Originaltext"
+	"aieditingassistant-ui-commandexecution-original": "Originaltext",
+	"aieditingassistant-config-provider-type-none": "Keen",
+	"aieditingassistant-ui-command-paraphrase": "Schreiwe verbesseren",
+	"aieditingassistant-ui-description-summarize": "Den Text gëtt an engem präzisen a kuerzen Abschnitt resuméiert.",
+	"aieditingassistant-ui-commandexecution-loading": "Generéieren ..."
 }
