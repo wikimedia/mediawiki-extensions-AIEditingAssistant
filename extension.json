@@ -8,7 +8,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:AIEditingAssistant",
 	"descriptionmsg": "aieditingassistant-desc",
 	"requires": {
-		"MediaWiki": ">= 1.39.0",
+		"MediaWiki": ">= 1.43.0",
 		"extensions": {
 			"VisualEditor": "*",
 			"VisualEditorPlus": "*"
