@@ -3,8 +3,8 @@
 namespace MediaWiki\Extension\AIEditingAssistant\Provider;
 
 use MediaWiki\Http\HttpRequestFactory;
+use MediaWiki\Message\Message;
 use MediaWiki\Session\Session;
-use Message;
 use RuntimeException;
 use Status;
 

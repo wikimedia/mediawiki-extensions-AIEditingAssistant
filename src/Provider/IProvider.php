@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\AIEditingAssistant\Provider;
 
+use MediaWiki\Message\Message;
 use MediaWiki\Session\Session;
-use Message;
 use Status;
 
 interface IProvider {
