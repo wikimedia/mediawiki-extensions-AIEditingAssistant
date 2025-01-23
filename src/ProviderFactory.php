@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\AIEditingAssistant;
 
-use Config;
 use InvalidArgumentException;
+use MediaWiki\Config\Config;
 use MediaWiki\Extension\AIEditingAssistant\Provider\IProvider;
 use Wikimedia\ObjectFactory\ObjectFactory;
 
