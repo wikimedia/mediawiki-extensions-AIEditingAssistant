@@ -6,8 +6,8 @@ use BlueSpice\ConfigDefinition\ArraySetting;
 use BlueSpice\ConfigDefinition\IOverwriteGlobal;
 use HTMLFormField;
 use HTMLSelectField;
-use IContextSource;
 use MediaWiki\Config\Config;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Extension\AIEditingAssistant\ProviderFactory;
 use MediaWiki\MediaWikiServices;
 
