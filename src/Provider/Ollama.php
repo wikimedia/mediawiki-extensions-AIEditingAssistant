@@ -5,8 +5,8 @@ namespace MediaWiki\Extension\AIEditingAssistant\Provider;
 use MediaWiki\Http\HttpRequestFactory;
 use MediaWiki\Message\Message;
 use MediaWiki\Session\Session;
+use MediaWiki\Status\Status;
 use RuntimeException;
-use Status;
 
 class Ollama implements IProvider {
 
