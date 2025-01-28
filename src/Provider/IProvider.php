@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\AIEditingAssistant\Provider;
 
 use MediaWiki\Message\Message;
 use MediaWiki\Session\Session;
-use Status;
+use MediaWiki\Status\Status;
 
 interface IProvider {
 	/**
