@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"[http://www.hallowelt.com Hallo Welt! GmbH]",
-			"Amire80"
+			"Amire80",
+			"[http://www.hallowelt.com Hallo Welt! GmbH]"
 		]
 	},
 	"aieditingassistant-desc": "Description of AIEditingAssistant for [[Special:Version]]",
