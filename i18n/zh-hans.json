@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzombiejun"
+		]
+	},
+	"aieditingassistant-desc": "VisualEditor 的 AI 辅助编辑",
+	"aieditingassistant-ui-inspector-label": "AI编辑助手",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "发送",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "告诉 AI 如何改进建议替换的文本",
+	"aieditingassistant-config-provider-type-none": "无",
+	"aieditingassistant-ui-command-expand": "变得更长",
+	"aieditingassistant-ui-command-summarize": "总结内容",
+	"aieditingassistant-ui-command-simplify": "变得更短",
+	"aieditingassistant-ui-command-paraphrase": "提高写作水平",
+	"aieditingassistant-ui-command-check-grammar": "修正语法和拼写",
+	"aieditingassistant-ui-command-remove-redundancy": "简化语言",
+	"aieditingassistant-ui-description-expand": "通过提供更多细节和信息来扩展给定的文本。",
+	"aieditingassistant-ui-description-summarize": "将给定的文本总结为简洁、简短的段落。",
+	"aieditingassistant-ui-description-simplify": "简化给定的文本，使其更容易理解和领悟。",
+	"aieditingassistant-ui-description-paraphrase": "使用不同的词语重新表述给定的文本，同时保留原来的含义。",
+	"aieditingassistant-ui-description-check-grammar": "检查给定文本中的语法和标点符号，确保正确性。",
+	"aieditingassistant-ui-description-remove-redundancy": "从给定的文本中删除不必要或多余的信息。",
+	"aieditingassistant-ui-commandexecution-final": "建议替换为",
+	"aieditingassistant-ui-commandexecution-replace": "替换",
+	"aieditingassistant-ui-commandexecution-retry": "重试",
+	"aieditingassistant-ui-commandexecution-cancel": "取消",
+	"aieditingassistant-ui-commandexecution-loading": "正在生成...",
+	"aieditingassistant-ui-commandexecution-undo": "撤消上次的提示词",
+	"aieditingassistant-provider-failure": "执行请求失败：$1",
+	"aieditingassistant-ui-prompt-dialog-title": "AI编辑助手",
+	"aieditingassistant-ui-prompt-dialog-cancel": "取消",
+	"aieditingassistant-ui-prompt-dialog-submit": "替换",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "选择一个命令",
+	"aieditingassistant-ui-commandexecution-back": "返回到命令选择界面",
+	"aieditingassistant-ui-commandexecution-original": "源文本"
+}
