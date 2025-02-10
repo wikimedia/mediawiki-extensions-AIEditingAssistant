@@ -5,10 +5,10 @@ namespace MediaWiki\Extension\AIEditingAssistant\ConfigDefinition;
 use BlueSpice\ConfigDefinition\ArraySetting;
 use BlueSpice\ConfigDefinition\IOverwriteGlobal;
 use HTMLFormField;
-use HTMLSelectField;
 use MediaWiki\Config\Config;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\Extension\AIEditingAssistant\ProviderFactory;
+use MediaWiki\HTMLForm\Field\HTMLSelectField;
 use MediaWiki\MediaWikiServices;
 
 class ProviderType extends ArraySetting implements IOverwriteGlobal {
