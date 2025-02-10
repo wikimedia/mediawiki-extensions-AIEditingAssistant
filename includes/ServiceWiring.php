@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Registration\ExtensionRegistry;
+
 return [
 	'AIEditingAssistant.ProviderFactory' => static function ( \MediaWiki\MediaWikiServices $services ) {
 		return new \MediaWiki\Extension\AIEditingAssistant\ProviderFactory(
