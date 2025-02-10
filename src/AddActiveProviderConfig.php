@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\AIEditingAssistant;
 
-use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Output\Hook\BeforePageDisplayHook;
 
 class AddActiveProviderConfig implements BeforePageDisplayHook {
 
