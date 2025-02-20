@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gzombiejun"
+			"Gzombiejun",
+			"Lakejason0"
 		]
 	},
 	"aieditingassistant-desc": "VisualEditor 的 AI 辅助编辑",
@@ -28,6 +29,9 @@
 	"aieditingassistant-ui-commandexecution-loading": "正在生成...",
 	"aieditingassistant-ui-commandexecution-undo": "撤消上次的提示词",
 	"aieditingassistant-provider-failure": "执行请求失败：$1",
+	"aieditingassistant-provider-no-reponses": "无法获取任何建议，请重试",
+	"aieditingassistant-config-provider-connection": "连接参数",
+	"aieditingassistant-config-provider-type": "提供者类型",
 	"aieditingassistant-ui-prompt-dialog-title": "AI编辑助手",
 	"aieditingassistant-ui-prompt-dialog-cancel": "取消",
 	"aieditingassistant-ui-prompt-dialog-submit": "替换",
