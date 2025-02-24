@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"aieditingassistant-desc": "Modification assistite per IA pro VisualEditor",
+	"aieditingassistant-ui-inspector-label": "Assistente IA de modification",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Inviar",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Dice al IA como meliorar le suggestion",
+	"aieditingassistant-config-provider-type-none": "Necun",
+	"aieditingassistant-ui-command-expand": "Allongar",
+	"aieditingassistant-ui-command-summarize": "Summarisar contento",
+	"aieditingassistant-ui-command-simplify": "Accurtar",
+	"aieditingassistant-ui-command-paraphrase": "Meliorar stilo de scriptura",
+	"aieditingassistant-ui-command-check-grammar": "Corriger grammatica e orthographia",
+	"aieditingassistant-ui-command-remove-redundancy": "Simplificar linguage",
+	"aieditingassistant-ui-description-expand": "Expande le texto date forniente plus detalios e information.",
+	"aieditingassistant-ui-description-summarize": "Summarisa le texto date in un paragrapho concise e breve.",
+	"aieditingassistant-ui-description-simplify": "Simplifica le texto date, rendente lo plus facile a comprender.",
+	"aieditingassistant-ui-description-paraphrase": "Reformula le texto date in altere parolas, ma conserva le significato original.",
+	"aieditingassistant-ui-description-check-grammar": "Verifica le grammatica e le punctuation in le texto date, assecurante que illos es correcte.",
+	"aieditingassistant-ui-description-remove-redundancy": "Remove information innecessari o redundante del texto date.",
+	"aieditingassistant-ui-commandexecution-final": "Reimplaciamento suggerite",
+	"aieditingassistant-ui-commandexecution-replace": "Reimplaciar",
+	"aieditingassistant-ui-commandexecution-retry": "Reprobar",
+	"aieditingassistant-ui-commandexecution-cancel": "Cancellar",
+	"aieditingassistant-ui-commandexecution-loading": "Generation…",
+	"aieditingassistant-ui-commandexecution-undo": "Disfacer le ultime consulta",
+	"aieditingassistant-provider-failure": "Fallimento de execution del requesta: $1",
+	"aieditingassistant-provider-no-reponses": "Non poteva recuperar alcun suggestion, per favor tenta lo de novo",
+	"aieditingassistant-config-provider-connection": "Parametros de connexion",
+	"aieditingassistant-config-provider-type": "Typo de fornitor",
+	"aieditingassistant-ui-prompt-dialog-title": "Assistente IA de modification",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Cancellar",
+	"aieditingassistant-ui-prompt-dialog-submit": "Reimplaciar",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Selige un commando",
+	"aieditingassistant-ui-commandexecution-back": "Retornar al selection de commandos",
+	"aieditingassistant-ui-commandexecution-original": "Texto original"
+}
