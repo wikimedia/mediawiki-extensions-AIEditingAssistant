@@ -29,13 +29,13 @@
 	"aieditingassistant-ui-commandexecution-loading": "正在生成...",
 	"aieditingassistant-ui-commandexecution-undo": "撤消上次的提示词",
 	"aieditingassistant-provider-failure": "执行请求失败：$1",
+	"aieditingassistant-provider-no-reponses": "无法获取任何建议，请重试",
+	"aieditingassistant-config-provider-connection": "连接参数",
+	"aieditingassistant-config-provider-type": "提供者类型",
 	"aieditingassistant-ui-prompt-dialog-title": "AI编辑助手",
 	"aieditingassistant-ui-prompt-dialog-cancel": "取消",
 	"aieditingassistant-ui-prompt-dialog-submit": "替换",
 	"aieditingassistant-ui-prompt-dialog-command-selection-header": "选择一个命令",
 	"aieditingassistant-ui-commandexecution-back": "返回到命令选择界面",
-	"aieditingassistant-ui-commandexecution-original": "源文本",
-	"aieditingassistant-provider-no-reponses": "无法获取任何建议，请重试",
-	"aieditingassistant-config-provider-connection": "连接参数",
-	"aieditingassistant-config-provider-type": "提供者类型"
+	"aieditingassistant-ui-commandexecution-original": "源文本"
 }
