@@ -6,7 +6,8 @@
 		"wikimedia/mediawiki"
 	],
 	"rules": {
-		"no-implicit-globals": "off"
+		"no-implicit-globals": "off",
+		"no-jquery/no-done-fail": "warn"
 	},
 	"globals": {
 		"ext": "readonly",
