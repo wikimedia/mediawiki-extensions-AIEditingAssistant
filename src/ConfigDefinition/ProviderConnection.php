@@ -3,9 +3,9 @@
 namespace MediaWiki\Extension\AIEditingAssistant\ConfigDefinition;
 
 use BlueSpice\ConfigDefinition\IOverwriteGlobal;
-use BlueSpice\ConfigDefinition\StringSetting;
+use BlueSpice\ConfigDefinition\SecretSetting;
 
-class ProviderConnection extends StringSetting implements IOverwriteGlobal {
+class ProviderConnection extends SecretSetting implements IOverwriteGlobal {
 
 	/**
 	 *
