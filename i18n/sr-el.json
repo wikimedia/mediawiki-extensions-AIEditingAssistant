@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Pošalji",
+	"aieditingassistant-config-provider-type-none": "Nema",
+	"aieditingassistant-ui-command-simplify": "Učini kraćim",
+	"aieditingassistant-ui-command-remove-redundancy": "Pojednostavi jezik",
+	"aieditingassistant-ui-commandexecution-final": "Predložena zamena",
+	"aieditingassistant-ui-commandexecution-replace": "Zameni",
+	"aieditingassistant-ui-commandexecution-retry": "Pokušaj ponovo",
+	"aieditingassistant-ui-commandexecution-cancel": "Otkaži",
+	"aieditingassistant-ui-commandexecution-loading": "Generisanje...",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Otkaži",
+	"aieditingassistant-ui-prompt-dialog-submit": "Zameni",
+	"aieditingassistant-ui-commandexecution-original": "Originalni tekst"
+}
