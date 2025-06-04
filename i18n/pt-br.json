@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"aieditingassistant-desc": "Edição assistida por IA para o Editor visual",
+	"aieditingassistant-ui-inspector-label": "Assistente de edição com IA",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Enviar",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Diga à IA como melhorar a sugestão",
+	"aieditingassistant-config-provider-type-none": "Nenhum",
+	"aieditingassistant-ui-command-expand": "Tornar mais longo",
+	"aieditingassistant-ui-command-summarize": "Resumir conteúdo",
+	"aieditingassistant-ui-command-simplify": "Encurtar",
+	"aieditingassistant-ui-command-paraphrase": "Melhorar escrita",
+	"aieditingassistant-ui-command-check-grammar": "Corrigir gramática e ortografia",
+	"aieditingassistant-ui-command-remove-redundancy": "Simplifique a linguagem",
+	"aieditingassistant-ui-description-expand": "Expande o texto fornecido, oferecendo mais detalhes e informações.",
+	"aieditingassistant-ui-description-summarize": "Resume o texto fornecido em um parágrafo conciso e breve.",
+	"aieditingassistant-ui-description-simplify": "Simplifica o texto fornecido, tornando-o mais fácil de entender e compreender.",
+	"aieditingassistant-ui-description-paraphrase": "Reformula o texto fornecido usando palavras diferentes, mantendo o significado original.",
+	"aieditingassistant-ui-description-check-grammar": "Verifica a gramática e a pontuação do texto fornecido, garantindo a correção.",
+	"aieditingassistant-ui-description-remove-redundancy": "Remove informações desnecessárias ou redundantes do texto fornecido.",
+	"aieditingassistant-ui-commandexecution-final": "Substituição sugerida",
+	"aieditingassistant-ui-commandexecution-replace": "Substituir",
+	"aieditingassistant-ui-commandexecution-retry": "Tentar novamente",
+	"aieditingassistant-ui-commandexecution-cancel": "Cancelar",
+	"aieditingassistant-ui-commandexecution-loading": "Gerando...",
+	"aieditingassistant-ui-commandexecution-undo": "Desfazer último prompt",
+	"aieditingassistant-provider-failure": "Falha ao executar a solicitação: $1",
+	"aieditingassistant-provider-no-reponses": "Não foi possível recuperar nenhuma sugestão. Tente novamente.",
+	"aieditingassistant-config-provider-connection": "Parâmetros de conexão",
+	"aieditingassistant-config-provider-type": "Tipo de provedor",
+	"aieditingassistant-ui-prompt-dialog-title": "Assistente de edição com IA",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Cancelar",
+	"aieditingassistant-ui-prompt-dialog-submit": "Substituir",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Selecione um comando",
+	"aieditingassistant-ui-commandexecution-back": "Voltar à seleção de comandos",
+	"aieditingassistant-ui-commandexecution-original": "Texto original"
+}
