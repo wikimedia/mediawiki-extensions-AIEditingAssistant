@@ -75,7 +75,6 @@ class Ollama implements IProvider {
 	 * @return Status
 	 */
 	private function getResponse( array $messages ): Status {
-		error_log( $this->url . '/api/chat' );
 		$req = $this->httpRequestFactory->create(
 			$this->url . '/api/chat',
 			[ 'method' => 'POST', 'postData' => json_encode( [
