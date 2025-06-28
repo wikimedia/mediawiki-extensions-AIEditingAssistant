@@ -18,8 +18,7 @@
 		"AIEditingAssistant": "i18n"
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\AIEditingAssistant\\": "src/",
-		"MediaWiki\\Extension\\AIEditingAssistant\\Tests\\": "tests/phpunit"
+		"MediaWiki\\Extension\\AIEditingAssistant\\": "src/"
 	},
 	"attributes": {
 		"VisualEditor": {
