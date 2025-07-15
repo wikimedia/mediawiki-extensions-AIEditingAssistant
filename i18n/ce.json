@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "ДӀадахьийта",
+	"aieditingassistant-config-provider-type-none": "ХӀан-хӀа",
+	"aieditingassistant-ui-command-expand": "Кхин а йеха",
+	"aieditingassistant-ui-command-summarize": "Чулацаман жамӀ дар",
+	"aieditingassistant-ui-command-paraphrase": "Йоза тодар",
+	"aieditingassistant-ui-command-remove-redundancy": "Мотт аттачу баккхар",
+	"aieditingassistant-ui-commandexecution-replace": "Хийца",
+	"aieditingassistant-ui-commandexecution-retry": "ЙухагӀорта",
+	"aieditingassistant-ui-commandexecution-cancel": "Йухайаккхар",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Йухайаккхар",
+	"aieditingassistant-ui-prompt-dialog-submit": "Хийца",
+	"aieditingassistant-ui-commandexecution-original": "Йуьхьанцара текст"
+}
