@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darafsh"
+		]
+	},
+	"aieditingassistant-desc": "ویرایش با کمک هوش مصنوعی برای ویرایشگر دیداری",
+	"aieditingassistant-ui-inspector-label": "دستیار ویرایش با هوش مصنوعی",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "ارسال",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "به هوش مصنوعی بگویید چگونه پیشنهاد را بهبود دهد",
+	"aieditingassistant-config-provider-type-none": "هیچ",
+	"aieditingassistant-ui-command-expand": "طولانی‌تر کن",
+	"aieditingassistant-ui-command-summarize": "خلاصه‌سازی محتوا",
+	"aieditingassistant-ui-command-simplify": "کوتاه‌تر کن",
+	"aieditingassistant-ui-commandexecution-retry": "تلاش مجدد",
+	"aieditingassistant-ui-commandexecution-cancel": "لغو",
+	"aieditingassistant-ui-commandexecution-loading": "تولید...",
+	"aieditingassistant-ui-prompt-dialog-title": "دستیار ویرایش با هوش مصنوعی",
+	"aieditingassistant-ui-prompt-dialog-cancel": "لغو",
+	"aieditingassistant-ui-prompt-dialog-submit": "جایگزینی",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "انتخاب یک دستور",
+	"aieditingassistant-ui-commandexecution-original": "متن اصلی"
+}
