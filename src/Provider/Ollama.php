@@ -20,6 +20,15 @@ class Ollama implements IProvider {
 	 */
 	private $url;
 
+	/** @var string */
+	private string $model = 'llama3';
+
+	/** @var string|null */
+	private ?string $secret = null;
+
+	/** @var string */
+	private string $endpoint = 'api/chat';
+
 	/**
 	 * @var Session
 	 */
@@ -36,7 +45,16 @@ class Ollama implements IProvider {
 	 * @inheritDoc
 	 */
 	public function setConnectionData( string $connection ) {
-		$this->url = $connection;
+		$connectionData = json_decode( $connection, true );
+		if ( isset( $connectionData['legacy'] ) ) {
+			$this->url = $connectionData['legacy'];
+			return;
+		}
+		$this->url = $connectionData['url'] ?? '';
+		$this->endpoint = $connectionData['endpoint'] ?? $this->endpoint;
+		$this->endpoint = ltrim( $this->endpoint, '/' );
+		$this->model = $connectionData['model'] ?? $this->model;
+		$this->secret = $connectionData['secret'] ?? null;
 	}
 
 	/**
@@ -76,14 +94,17 @@ class Ollama implements IProvider {
 	 */
 	private function getResponse( array $messages ): Status {
 		$req = $this->httpRequestFactory->create(
-			$this->url . '/api/chat',
+			$this->url . '/' . $this->endpoint,
 			[ 'method' => 'POST', 'postData' => json_encode( [
-				'model' => 'llama3',
+				'model' => $this->model,
 				'messages' => $messages,
 				'stream' => false
 			] ) ]
 		);
 		$req->setHeader( 'Content-Type', 'application/json' );
+		if ( $this->secret ) {
+			$req->setHeader( 'Authorization', 'Bearer ' . $this->secret );
+		}
 		$res = $req->execute();
 		if ( !$res->isOK() ) {
 			return Status::newFatal( 'aieditingassistant-provider-failure', $res->getMessage() );

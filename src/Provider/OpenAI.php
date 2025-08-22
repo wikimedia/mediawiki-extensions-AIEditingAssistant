@@ -18,7 +18,16 @@ class OpenAI implements IProvider {
 	/**
 	 * @var string
 	 */
-	private $secret;
+	private string $url = 'https://api.openai.com/v1';
+
+	/** @var string */
+	private string $model = 'gpt-3.5-turbo';
+
+	/** @var string|null */
+	private ?string $secret = null;
+
+	/** @var string */
+	private string $endpoint = 'chat/completions';
 
 	/**
 	 * @var Session
@@ -36,7 +45,16 @@ class OpenAI implements IProvider {
 	 * @inheritDoc
 	 */
 	public function setConnectionData( string $connection ) {
-		$this->secret = $connection;
+		$connectionData = json_decode( $connection, true );
+		if ( isset( $connectionData['legacy'] ) ) {
+			$this->secret = $connectionData['legacy'];
+			return;
+		}
+		$this->url = $connectionData['url'] ?? $this->url;
+		$this->endpoint = $connectionData['endpoint'] ?? $this->endpoint;
+		$this->endpoint = ltrim( $this->endpoint, '/' );
+		$this->model = $connectionData['model'] ?? $this->model;
+		$this->secret = $connectionData['secret'] ?? null;
 	}
 
 	/**
@@ -76,13 +94,15 @@ class OpenAI implements IProvider {
 	 */
 	private function getResponse( array $messages ): Status {
 		$req = $this->httpRequestFactory->create(
-			'https://api.openai.com/v1/chat/completions',
+			$this->url . '/' . $this->endpoint,
 			[ 'method' => 'POST', 'postData' => json_encode( [
-				'model' => 'gpt-3.5-turbo',
+				'model' => $this->model,
 				'messages' => $messages
 			] ) ]
 		);
-		$req->setHeader( 'Authorization', 'Bearer ' . $this->secret );
+		if ( $this->secret ) {
+			$req->setHeader( 'Authorization', 'Bearer ' . $this->secret );
+		}
 		$req->setHeader( 'Content-Type', 'application/json' );
 		$res = $req->execute();
 		if ( !$res->isOK() ) {

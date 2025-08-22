@@ -43,7 +43,7 @@
 	"aieditingassistant-provider-no-reponses": "Failed to retrieve any suggestions, please try again",
 
 	"aieditingassistant-initialization-command": "You are an assistant. User provided you with the text to work with. Text provided is: \"$1\". User will ask you to manipulate this text in some way. Determine which language the text user provided is in and make sure that manipulated text you respond with is in the same language. Respond only with result of text manipulation, without any greetings or additional sentences. Do not provide opening and closing quotes in the response. Never return anything but the variation of the provided text.",
-	"aieditingassistant-config-provider-connection": "Connection params",
+	"aieditingassistant-config-provider-connection": "Connection parameters (JSON)",
 	"aieditingassistant-config-provider-type": "Provider type",
 
 	"aieditingassistant-ui-prompt-dialog-title": "AI Editing Assistant",

@@ -3,9 +3,10 @@
 namespace MediaWiki\Extension\AIEditingAssistant\ConfigDefinition;
 
 use BlueSpice\ConfigDefinition\IOverwriteGlobal;
-use BlueSpice\ConfigDefinition\SecretSetting;
+use BlueSpice\ConfigDefinition\StringSetting;
+use MediaWiki\HTMLForm\Field\HTMLTextAreaField;
 
-class ProviderConnection extends SecretSetting implements IOverwriteGlobal {
+class ProviderConnection extends StringSetting implements IOverwriteGlobal {
 
 	/**
 	 *
@@ -17,6 +18,14 @@ class ProviderConnection extends SecretSetting implements IOverwriteGlobal {
 			static::MAIN_PATH_EXTENSION . '/AI Editing Assistant/' . static::FEATURE_EDITOR,
 			static::MAIN_PATH_PACKAGE . '/' . static::PACKAGE_FREE . '/AI Editing Assistant',
 		];
+	}
+
+	/**
+	 *
+	 * @return HTMLTextAreaField
+	 */
+	public function getHtmlFormField() {
+		return new HTMLTextAreaField( $this->makeFormFieldParams() + [ 'rows' => 5 ] );
 	}
 
 	/**
