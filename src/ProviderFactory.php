@@ -36,10 +36,12 @@ class ProviderFactory {
 
 	/**
 	 * @return Provider\IProvider
+	 * @throws InvalidArgumentException
 	 */
 	public function getActiveProvider(): Provider\IProvider {
 		$active = $this->config->get( 'AIEditingAssistantActiveProvider' );
 		$connection = $this->config->get( 'AIEditingAssistantActiveProviderConnection' );
+		$connection = $this->formatConnection( $connection );
 		return $this->getProvider( $active, $connection );
 	}
 
@@ -79,5 +81,27 @@ class ProviderFactory {
 		}
 
 		return $names;
+	}
+
+	/**
+	 * @param string $connection
+	 * @return string
+	 * @throws InvalidArgumentException
+	 */
+	private function formatConnection( string $connection ): string {
+		$connection = trim( $connection );
+		if ( !$connection ) {
+			return '';
+		}
+		// Check if a plain-string, not a JSON - B/C - legacy configuration
+		if ( strpos( $connection, '{' ) === false && strpos( $connection, '}' ) === false ) {
+			return json_encode( [ 'legacy' => $connection ] );
+		}
+		// If it is a JSON, validate it
+		json_decode( $connection );
+		if ( json_last_error() !== JSON_ERROR_NONE ) {
+			throw new InvalidArgumentException( 'Invalid JSON connection data: ' . json_last_error_msg() );
+		}
+		return $connection;
 	}
 }

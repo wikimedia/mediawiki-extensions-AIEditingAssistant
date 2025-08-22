@@ -29,7 +29,7 @@
 	"aieditingassistant-ui-commandexecution-undo": "Letzten Prompt rückgängig machen",
 	"aieditingassistant-provider-failure": "Die Ausführung der Anfrage ist fehlgeschlagen: $1",
 	"aieditingassistant-provider-no-reponses": "Es konnten keine Vorschläge abgerufen werden. Bitte {{#FORMAL:versuche|versuchen Sie}} es erneut.",
-	"aieditingassistant-config-provider-connection": "Verbindungsparameter",
+	"aieditingassistant-config-provider-connection": "Verbindungsparameter (JSON)",
 	"aieditingassistant-config-provider-type": "Anbieter",
 	"aieditingassistant-ui-prompt-dialog-title": "KI-Schreibassistent",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Abbrechen",
