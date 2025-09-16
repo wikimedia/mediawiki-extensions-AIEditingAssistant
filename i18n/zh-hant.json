@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"aieditingassistant-desc": "視覺化編輯器的 AI 輔助編輯",
+	"aieditingassistant-ui-inspector-label": "AI 編輯助理",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "傳送",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "告訴 AI 如何改進建議",
+	"aieditingassistant-config-provider-type-none": "無",
+	"aieditingassistant-ui-command-expand": "弄成更長",
+	"aieditingassistant-ui-command-summarize": "總結內容",
+	"aieditingassistant-ui-command-simplify": "弄成更短",
+	"aieditingassistant-ui-command-paraphrase": "提升寫作水準",
+	"aieditingassistant-ui-command-check-grammar": "修正語法與拼寫",
+	"aieditingassistant-ui-command-remove-redundancy": "簡化語言",
+	"aieditingassistant-ui-description-expand": "透過提供更多細節與資訊來擴充指定的文字。",
+	"aieditingassistant-ui-description-summarize": "總結指定的文字成簡潔、簡短的段落。",
+	"aieditingassistant-ui-description-simplify": "簡化指定的文字，讓內容更明白與理解。",
+	"aieditingassistant-ui-description-paraphrase": "使用不同的字詞來改寫指定的文字，同時保留原來的含意。",
+	"aieditingassistant-ui-description-check-grammar": "檢查指定文字中的語法和標點符號，來確保正確性。",
+	"aieditingassistant-ui-description-remove-redundancy": "從指定的文字裡刪除不必要或多餘資訊。",
+	"aieditingassistant-ui-commandexecution-final": "建議更換",
+	"aieditingassistant-ui-commandexecution-replace": "取代",
+	"aieditingassistant-ui-commandexecution-retry": "重試",
+	"aieditingassistant-ui-commandexecution-cancel": "取消",
+	"aieditingassistant-ui-commandexecution-loading": "生成中…",
+	"aieditingassistant-ui-commandexecution-undo": "撤銷上次的提示",
+	"aieditingassistant-provider-failure": "執行請求失敗：$1",
+	"aieditingassistant-provider-no-reponses": "未能檢索任何建議，請重試",
+	"aieditingassistant-config-provider-connection": "連接參數",
+	"aieditingassistant-config-provider-type": "提供者類型",
+	"aieditingassistant-ui-prompt-dialog-title": "AI 編輯助理",
+	"aieditingassistant-ui-prompt-dialog-cancel": "取消",
+	"aieditingassistant-ui-prompt-dialog-submit": "取代",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "選擇一個指令",
+	"aieditingassistant-ui-commandexecution-back": "返回命令選擇",
+	"aieditingassistant-ui-commandexecution-original": "原始文字"
+}
