@@ -19,7 +19,6 @@ class ProviderType extends ArraySetting implements IOverwriteGlobal {
 	private $providerFactory;
 
 	/**
-	 *
 	 * @inheritDoc
 	 */
 	public static function getInstance( $context, $config, $name ) {
@@ -44,7 +43,6 @@ class ProviderType extends ArraySetting implements IOverwriteGlobal {
 	}
 
 	/**
-	 *
 	 * @return string[]
 	 */
 	public function getPaths() {
@@ -56,7 +54,6 @@ class ProviderType extends ArraySetting implements IOverwriteGlobal {
 	}
 
 	/**
-	 *
 	 * @return HTMLFormField
 	 */
 	public function getHtmlFormField() {
@@ -64,7 +61,6 @@ class ProviderType extends ArraySetting implements IOverwriteGlobal {
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getLabelMessageKey() {
@@ -72,7 +68,6 @@ class ProviderType extends ArraySetting implements IOverwriteGlobal {
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	protected function getOptions() {
@@ -87,7 +82,6 @@ class ProviderType extends ArraySetting implements IOverwriteGlobal {
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getGlobalName() {

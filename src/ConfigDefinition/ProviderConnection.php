@@ -8,7 +8,6 @@ use BlueSpice\ConfigDefinition\SecretSetting;
 class ProviderConnection extends SecretSetting implements IOverwriteGlobal {
 
 	/**
-	 *
 	 * @return array
 	 */
 	public function getPaths() {
@@ -20,7 +19,6 @@ class ProviderConnection extends SecretSetting implements IOverwriteGlobal {
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getLabelMessageKey() {
