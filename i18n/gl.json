@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"aieditingassistant-desc": "Edición asistida por IA para o editor visual",
+	"aieditingassistant-ui-inspector-label": "Asistente de edición con IA",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Enviar",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Dille á IA como mellorar a suxestión",
+	"aieditingassistant-config-provider-type-none": "Ningún",
+	"aieditingassistant-ui-command-expand": "Facer máis longo",
+	"aieditingassistant-ui-command-summarize": "Resumir o contido",
+	"aieditingassistant-ui-command-simplify": "Facer máis curto",
+	"aieditingassistant-ui-command-paraphrase": "Mellorar a redacción",
+	"aieditingassistant-ui-command-check-grammar": "Corrixir a gramática e mais a ortografía",
+	"aieditingassistant-ui-command-remove-redundancy": "Simplificar a linguaxe",
+	"aieditingassistant-ui-description-expand": "Amplía o texto indicado proporcionando máis detalles e información.",
+	"aieditingassistant-ui-description-summarize": "Resume o texto indicado nun parágrafo breve e conciso.",
+	"aieditingassistant-ui-description-simplify": "Simplifica o texto indicado, facéndoo máis fácil de entender e comprender.",
+	"aieditingassistant-ui-description-paraphrase": "Reformula o texto indicado con palabras diferentes, mantendo o significado orixinal.",
+	"aieditingassistant-ui-description-check-grammar": "Revisa a gramática e a puntuación do texto indicado, garantindo a súa corrección.",
+	"aieditingassistant-ui-description-remove-redundancy": "Elimina a información innecesaria ou redundante do texto indicado.",
+	"aieditingassistant-ui-commandexecution-final": "Substitución suxerida",
+	"aieditingassistant-ui-commandexecution-replace": "Substituír",
+	"aieditingassistant-ui-commandexecution-retry": "Reintentar",
+	"aieditingassistant-ui-commandexecution-cancel": "Cancelar",
+	"aieditingassistant-ui-commandexecution-loading": "Xerando...",
+	"aieditingassistant-ui-commandexecution-undo": "Desfacer a última solicitude",
+	"aieditingassistant-provider-failure": "Non se puido executar a solicitude: $1",
+	"aieditingassistant-provider-no-reponses": "Non se puido recuperar ningunha suxestión. Inténtao de novo.",
+	"aieditingassistant-config-provider-connection": "Parámetros de conexión",
+	"aieditingassistant-config-provider-type": "Tipo de provedor",
+	"aieditingassistant-ui-prompt-dialog-title": "Asistente de edición con IA",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Cancelar",
+	"aieditingassistant-ui-prompt-dialog-submit": "Substituír",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Selecciona un comando",
+	"aieditingassistant-ui-commandexecution-back": "Volver á selección de comandos",
+	"aieditingassistant-ui-commandexecution-original": "Texto orixinal"
+}
