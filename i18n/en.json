@@ -1,55 +1,48 @@
 {
 	"@metadata": {
-		"authors": [ "[http://www.hallowelt.com Hallo Welt! GmbH]" ]
+		"authors": [
+			"[http://www.hallowelt.com Hallo Welt! GmbH]"
+		]
 	},
 	"aieditingassistant-desc": "AI-assisted editing for VisualEditor",
 	"aieditingassistant-ui-inspector-label": "AI Editing Assistant",
 	"aieditingassistant-ui-commandexecution-ask-more-submit": "Send",
 	"aieditingassistant-ui-commandexecution-ask-more-label": "Tell AI how to improve the suggestion",
-
 	"aieditingassistant-config-provider-type-none": "None",
 	"aieditingassistant-provider-openai": "OpenAI",
 	"aieditingassistant-provider-ollama": "Ollama",
-
 	"aieditingassistant-ui-command-expand": "Make longer",
 	"aieditingassistant-ui-command-summarize": "Summarize content",
 	"aieditingassistant-ui-command-simplify": "Make shorter",
 	"aieditingassistant-ui-command-paraphrase": "Improve writing",
 	"aieditingassistant-ui-command-check-grammar": "Fix grammar and spelling",
 	"aieditingassistant-ui-command-remove-redundancy": "Simplify language",
-
 	"aieditingassistant-ui-description-expand": "Expands the given text by providing more details and information.",
 	"aieditingassistant-ui-description-summarize": "Summarizes the given text into a concise and brief paragraph.",
 	"aieditingassistant-ui-description-simplify": "Simplifies the given text, making it easier to understand and comprehend.",
 	"aieditingassistant-ui-description-paraphrase": "Rephrases the given text using different words while retaining the original meaning.",
 	"aieditingassistant-ui-description-check-grammar": "Checks the grammar and punctuation in the given text, ensuring correctness.",
 	"aieditingassistant-ui-description-remove-redundancy": "Removes unnecessary or redundant information from the given text.",
-
 	"aieditingassistant-command-definition-expand": "Expand this text, making it longer",
 	"aieditingassistant-command-definition-summarize": "Summarize this text into a concise paragraph",
 	"aieditingassistant-command-definition-simplify": "Simplify this text and make it easier to understand",
 	"aieditingassistant-command-definition-paraphrase": "Rephrase this text using better writing style",
 	"aieditingassistant-command-definition-check-grammar": "Fix grammar and punctuation in this text",
 	"aieditingassistant-command-definition-remove-redundancy": "Remove any unnecessary or redundant information from this text",
-
 	"aieditingassistant-ui-commandexecution-final": "Suggested replacement",
 	"aieditingassistant-ui-commandexecution-replace": "Replace",
 	"aieditingassistant-ui-commandexecution-retry": "Retry",
 	"aieditingassistant-ui-commandexecution-cancel": "Cancel",
 	"aieditingassistant-ui-commandexecution-loading": "Generating...",
 	"aieditingassistant-ui-commandexecution-undo": "Undo last prompt",
-
 	"aieditingassistant-provider-failure": "Failed to execute request: $1",
 	"aieditingassistant-provider-no-reponses": "Failed to retrieve any suggestions, please try again",
-
 	"aieditingassistant-initialization-command": "You are an assistant. User provided you with the text to work with. Text provided is: \"$1\". User will ask you to manipulate this text in some way. Determine which language the text user provided is in and make sure that manipulated text you respond with is in the same language. Respond only with result of text manipulation, without any greetings or additional sentences. Do not provide opening and closing quotes in the response. Never return anything but the variation of the provided text.",
-	"aieditingassistant-config-provider-connection": "Connection params",
+	"aieditingassistant-config-provider-connection": "Connection parameters (JSON)",
 	"aieditingassistant-config-provider-type": "Provider type",
-
 	"aieditingassistant-ui-prompt-dialog-title": "AI Editing Assistant",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Cancel",
 	"aieditingassistant-ui-prompt-dialog-submit": "Replace",
-
 	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Select a command",
 	"aieditingassistant-ui-commandexecution-back": "Back to command selection",
 	"aieditingassistant-ui-commandexecution-original": "Original text"
