@@ -9,7 +9,7 @@
 	"aieditingassistant-ui-commandexecution-replace": "Sostituisci",
 	"aieditingassistant-ui-commandexecution-retry": "Riprova",
 	"aieditingassistant-ui-commandexecution-cancel": "Annulla",
-	"aieditingassistant-config-provider-connection": "Parametri di connessione",
+	"aieditingassistant-config-provider-connection": "Parametri di connessione (JSON)",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Annulla",
 	"aieditingassistant-ui-prompt-dialog-submit": "Sostituisci",
 	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Seleziona un comando",
