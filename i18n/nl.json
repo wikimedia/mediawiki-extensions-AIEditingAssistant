@@ -29,7 +29,7 @@
 	"aieditingassistant-ui-commandexecution-undo": "Laatste prompt ongedaan maken",
 	"aieditingassistant-provider-failure": "Het uitvoeren van het verzoek is mislukt: $1",
 	"aieditingassistant-provider-no-reponses": "Er konden geen suggesties worden opgehaald, probeer het opnieuw.",
-	"aieditingassistant-config-provider-connection": "Verbindingsparameters",
+	"aieditingassistant-config-provider-connection": "Verbindingsparameters (JSON)",
 	"aieditingassistant-config-provider-type": "Type aanbieder",
 	"aieditingassistant-ui-prompt-dialog-title": "AI-bewerkingsassistent",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Annuleren",
