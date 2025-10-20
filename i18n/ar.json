@@ -30,7 +30,7 @@
 	"aieditingassistant-ui-commandexecution-undo": "إبطال آخر طلب",
 	"aieditingassistant-provider-failure": "فشل تنفيذ الطلب: $1",
 	"aieditingassistant-provider-no-reponses": "فشل في استرداد أي اقتراحات، يرجى المحاولة مرة أخرى",
-	"aieditingassistant-config-provider-connection": "معلمات الاتصال",
+	"aieditingassistant-config-provider-connection": "معلمات الاتصال (JSON)",
 	"aieditingassistant-config-provider-type": "نوع المزود",
 	"aieditingassistant-ui-prompt-dialog-title": "مساعد التحرير بالذكاء الاصطناعي",
 	"aieditingassistant-ui-prompt-dialog-cancel": "إلغاء",
