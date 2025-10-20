@@ -29,7 +29,7 @@
 	"aieditingassistant-ui-commandexecution-undo": "Disfacer le ultime consulta",
 	"aieditingassistant-provider-failure": "Fallimento de execution del requesta: $1",
 	"aieditingassistant-provider-no-reponses": "Non poteva recuperar alcun suggestion, per favor tenta lo de novo",
-	"aieditingassistant-config-provider-connection": "Parametros de connexion",
+	"aieditingassistant-config-provider-connection": "Parametros de connexion (JSON)",
 	"aieditingassistant-config-provider-type": "Typo de fornitor",
 	"aieditingassistant-ui-prompt-dialog-title": "Assistente IA de modification",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Cancellar",
