@@ -124,7 +124,7 @@ class Ollama implements IProvider {
 	 * @return array
 	 */
 	private function getInitializationMessage( string $text ): array {
-		$prompt = Message::newFromKey( 'aieditingassistant-initialization-command' )->params( $text )->plain();
+		$prompt = Message::newFromKey( 'aieditingassistant-initialization-command' )->params( $text )->text();
 		return [ 'role' => 'system', 'content' => $prompt ];
 	}
 
