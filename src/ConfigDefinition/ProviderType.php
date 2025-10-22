@@ -73,10 +73,10 @@ class ProviderType extends ArraySetting implements IOverwriteGlobal {
 	protected function getOptions() {
 		$providers = $this->providerFactory->getProviderNames();
 		$options = [
-			$this->msg( 'aieditingassistant-config-provider-type-none' )->plain() => null,
+			$this->msg( 'aieditingassistant-config-provider-type-none' )->text() => null,
 		];
 		foreach ( $providers as $key => $label ) {
-			$options[$label->plain()] = $key;
+			$options[$label->text()] = $key;
 		}
 		return $options;
 	}
