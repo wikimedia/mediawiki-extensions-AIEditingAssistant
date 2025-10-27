@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Darafsh"
+			"Darafsh",
+			"LordProfo"
 		]
 	},
 	"aieditingassistant-desc": "ویرایش با کمک هوش مصنوعی برای ویرایشگر دیداری",
@@ -12,7 +13,7 @@
 	"aieditingassistant-ui-command-expand": "طولانی‌تر کن",
 	"aieditingassistant-ui-command-summarize": "خلاصه‌سازی محتوا",
 	"aieditingassistant-ui-command-simplify": "کوتاه‌تر کن",
-	"aieditingassistant-ui-commandexecution-retry": "تلاش مجدد",
+	"aieditingassistant-ui-commandexecution-retry": "تلاش دوباره",
 	"aieditingassistant-ui-commandexecution-cancel": "لغو",
 	"aieditingassistant-ui-commandexecution-loading": "تولید...",
 	"aieditingassistant-ui-prompt-dialog-title": "دستیار ویرایش با هوش مصنوعی",
