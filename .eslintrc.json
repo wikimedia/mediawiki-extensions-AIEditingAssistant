@@ -7,7 +7,8 @@
 	],
 	"rules": {
 		"no-implicit-globals": "off",
-		"no-jquery/no-done-fail": "warn"
+		"no-jquery/no-done-fail": "warn",
+		"mediawiki/no-unlabeled-buttonwidget": "warn"
 	},
 	"globals": {
 		"ext": "readonly",
