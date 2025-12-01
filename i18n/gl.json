@@ -29,7 +29,7 @@
 	"aieditingassistant-ui-commandexecution-undo": "Desfacer a última solicitude",
 	"aieditingassistant-provider-failure": "Non se puido executar a solicitude: $1",
 	"aieditingassistant-provider-no-reponses": "Non se puido recuperar ningunha suxestión. Inténtao de novo.",
-	"aieditingassistant-config-provider-connection": "Parámetros de conexión",
+	"aieditingassistant-config-provider-connection": "Parámetros de conexión (JSON)",
 	"aieditingassistant-config-provider-type": "Tipo de provedor",
 	"aieditingassistant-ui-prompt-dialog-title": "Asistente de edición con IA",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Cancelar",
