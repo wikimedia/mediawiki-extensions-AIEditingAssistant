@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gzombiejun",
-			"Lakejason0"
+			"Lakejason0",
+			"TeaSummer"
 		]
 	},
 	"aieditingassistant-desc": "VisualEditor 的 AI 辅助编辑",
@@ -36,6 +37,6 @@
 	"aieditingassistant-ui-commandexecution-back": "返回到命令选择界面",
 	"aieditingassistant-ui-commandexecution-original": "源文本",
 	"aieditingassistant-provider-no-reponses": "无法获取任何建议，请重试",
-	"aieditingassistant-config-provider-connection": "连接参数",
+	"aieditingassistant-config-provider-connection": "连接参数（JSON）",
 	"aieditingassistant-config-provider-type": "提供者类型"
 }
