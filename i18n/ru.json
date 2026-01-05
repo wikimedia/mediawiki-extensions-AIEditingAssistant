@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Vonavy"
 		]
 	},
 	"aieditingassistant-ui-commandexecution-ask-more-submit": "Отправить",
