@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stefan2255"
+		]
+	},
+	"aieditingassistant-desc": "AI-assisterad redigering för VisualEditor",
+	"aieditingassistant-ui-inspector-label": "AI-redigeringsassistent",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Skicka",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Berätta för AI:n hur förslaget kan förbättras",
+	"aieditingassistant-config-provider-type-none": "Ingen",
+	"aieditingassistant-ui-command-expand": "Gör längre",
+	"aieditingassistant-ui-command-summarize": "Sammanfatta innehållet",
+	"aieditingassistant-ui-command-simplify": "Gör kortare",
+	"aieditingassistant-ui-command-paraphrase": "Förbättra skrivandet",
+	"aieditingassistant-ui-command-check-grammar": "Fixa grammatik och stavning",
+	"aieditingassistant-ui-command-remove-redundancy": "Förenkla språket",
+	"aieditingassistant-ui-description-expand": "Utökar den givna texten genom att ge mer detaljer och information.",
+	"aieditingassistant-ui-description-summarize": "Sammanfattar den givna texten i ett koncist och kortfattat stycke.",
+	"aieditingassistant-ui-description-simplify": "Förenklar den givna texten, vilket gör den lättare att förstå och begripa.",
+	"aieditingassistant-ui-description-paraphrase": "Omformulerar den givna texten med andra ord samtidigt som den ursprungliga betydelsen bibehålls.",
+	"aieditingassistant-ui-description-check-grammar": "Kontrollerar grammatik och interpunktion i den givna texten och säkerställer att den är korrekt.",
+	"aieditingassistant-ui-description-remove-redundancy": "Tar bort onödig eller redundant information från den givna texten.",
+	"aieditingassistant-ui-commandexecution-final": "Föreslagen ersättning",
+	"aieditingassistant-ui-commandexecution-replace": "Ersätt",
+	"aieditingassistant-ui-commandexecution-retry": "Försök igen",
+	"aieditingassistant-ui-commandexecution-cancel": "Avbryt",
+	"aieditingassistant-ui-commandexecution-loading": "Alstrande...",
+	"aieditingassistant-ui-commandexecution-undo": "Ångra senaste prompt",
+	"aieditingassistant-provider-failure": "Misslyckades med att utföra begäran: $1",
+	"aieditingassistant-provider-no-reponses": "Det gick inte att hämta några förslag, försök igen",
+	"aieditingassistant-config-provider-connection": "Anslutningsparametrar (JSON)",
+	"aieditingassistant-config-provider-type": "Leverantörstyp",
+	"aieditingassistant-ui-prompt-dialog-title": "AI-redigeringsassistent",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Avbryt",
+	"aieditingassistant-ui-prompt-dialog-submit": "Ersätt",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Välj ett kommando",
+	"aieditingassistant-ui-commandexecution-back": "Tillbaka till kommandovalet",
+	"aieditingassistant-ui-commandexecution-original": "Originaltext"
+}
