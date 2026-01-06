@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"[http://www.hallowelt.com Hallo Welt! GmbH]"
+			"[http://www.hallowelt.com Hallo Welt! GmbH]",
+			"Umherirrender"
 		]
 	},
-	"aieditingassistant-desc": "Description of AIEditingAssistant for [[Special:Version]]",
+	"aieditingassistant-desc": "{{desc|name=AIEditingAssistant|url=https://www.mediawiki.org/wiki/Extension:AIEditingAssistant}}",
 	"aieditingassistant-ui-inspector-label": "Label for the VE inspector",
 	"aieditingassistant-ui-commandexecution-ask-more-submit": "Button label",
 	"aieditingassistant-ui-commandexecution-ask-more-label": "Label for ask more button",

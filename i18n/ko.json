@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"YeBoy371"
 		]
 	},
 	"aieditingassistant-desc": "시각 편집기용 AI 지원 편집",
@@ -21,7 +22,7 @@
 	"aieditingassistant-ui-commandexecution-undo": "마지막 프롬프트 실행 취소",
 	"aieditingassistant-provider-failure": "요청 실행 실패: $1",
 	"aieditingassistant-provider-no-reponses": "제안을 검색하지 못했습니다. 다시 시도해 주십시오",
-	"aieditingassistant-config-provider-connection": "연결 매개변수",
+	"aieditingassistant-config-provider-connection": "연결 매개변수 (JSON)",
 	"aieditingassistant-config-provider-type": "제공자 유형",
 	"aieditingassistant-ui-prompt-dialog-title": "AI 편집 도우미",
 	"aieditingassistant-ui-prompt-dialog-cancel": "취소",
