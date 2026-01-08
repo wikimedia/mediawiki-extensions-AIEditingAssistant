@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Vonavy"
 		]
 	},
 	"aieditingassistant-ui-commandexecution-ask-more-submit": "Отправить",
@@ -9,7 +10,7 @@
 	"aieditingassistant-ui-commandexecution-replace": "Заменить",
 	"aieditingassistant-ui-commandexecution-retry": "Повторить",
 	"aieditingassistant-ui-commandexecution-undo": "Отменить последний запрос",
-	"aieditingassistant-config-provider-connection": "Параметры соединения",
+	"aieditingassistant-config-provider-connection": "Параметры соединения (JSON)",
 	"aieditingassistant-ui-prompt-dialog-cancel": "Отмена",
 	"aieditingassistant-ui-prompt-dialog-submit": "Заменить",
 	"aieditingassistant-ui-commandexecution-original": "Исходный текст"
