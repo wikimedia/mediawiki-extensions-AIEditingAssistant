@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Neriah"
 		]
 	},
 	"aieditingassistant-desc": "עריכה בסיוע בינה מלאכותית בעורך החזותי",
@@ -30,7 +31,7 @@
 	"aieditingassistant-ui-commandexecution-undo": "ביטול ההנחיה האחרונה",
 	"aieditingassistant-provider-failure": "ביצוע הבקשה נכשל: $1",
 	"aieditingassistant-provider-no-reponses": "לא היה אפשר לאחזר שום הצעה, נא לנסות שוב",
-	"aieditingassistant-config-provider-connection": "פרמטרים של חיבור",
+	"aieditingassistant-config-provider-connection": "פרמטרים של חיבור (JSON)",
 	"aieditingassistant-config-provider-type": "סוג ספק",
 	"aieditingassistant-ui-prompt-dialog-title": "עוזר עריכה באמצעות בינה מלאכותית",
 	"aieditingassistant-ui-prompt-dialog-cancel": "ביטול",
