@@ -5,6 +5,9 @@
 		"wikimedia/jquery",
 		"wikimedia/mediawiki"
 	],
+	"parserOptions": {
+		"sourceType": "commonjs"
+	},
 	"rules": {
 		"no-implicit-globals": "off",
 		"no-jquery/no-done-fail": "warn",

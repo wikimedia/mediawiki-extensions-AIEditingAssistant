@@ -1,6 +1,6 @@
 ext.AIEditingAssistant.ui.Inspector = function ( inspector, config ) {
 	config = config || {};
-	config.padded = true;
+	config.padded = false;
 	ext.AIEditingAssistant.ui.Inspector.super.call( this, inspector, config );
 	this.range = null;
 	this.inspector = inspector;
