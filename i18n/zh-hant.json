@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"LowensteinYang"
 		]
 	},
 	"aieditingassistant-desc": "視覺化編輯器的 AI 輔助編輯",
@@ -29,7 +30,7 @@
 	"aieditingassistant-ui-commandexecution-undo": "撤銷上次的提示",
 	"aieditingassistant-provider-failure": "執行請求失敗：$1",
 	"aieditingassistant-provider-no-reponses": "未能檢索任何建議，請重試",
-	"aieditingassistant-config-provider-connection": "連接參數",
+	"aieditingassistant-config-provider-connection": "連接參數(JSON)",
 	"aieditingassistant-config-provider-type": "提供者類型",
 	"aieditingassistant-ui-prompt-dialog-title": "AI 編輯助理",
 	"aieditingassistant-ui-prompt-dialog-cancel": "取消",
