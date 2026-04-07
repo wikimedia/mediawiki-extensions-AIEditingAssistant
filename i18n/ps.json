@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"aieditingassistant-desc": "VisualEditor لپاره د مصنوعي ځيرکتيا مرستندويه سمول",
+	"aieditingassistant-ui-inspector-label": "د مصنوعي ځيرکتيا مرستندويه سمول",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "لېږل",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "مصنوعي ځيرکتيا ته ووايئ چې څنگه وړانديز ښه کړي",
+	"aieditingassistant-config-provider-type-none": "هېڅ",
+	"aieditingassistant-provider-openai": "OpenAI",
+	"aieditingassistant-provider-ollama": "Ollama",
+	"aieditingassistant-ui-command-expand": "اوږد يې کړئ",
+	"aieditingassistant-ui-command-summarize": "منځپانگې لنډيز",
+	"aieditingassistant-ui-command-simplify": "لنډ يې کړئ",
+	"aieditingassistant-ui-command-paraphrase": "ليکنه ښه کول",
+	"aieditingassistant-ui-command-check-grammar": "پښويه او املا سمول",
+	"aieditingassistant-ui-command-remove-redundancy": "ژبه ساده‌کول",
+	"aieditingassistant-ui-description-expand": "ورکړل شوی ليک د نور سپيناوي او مالوماتو ورکولو سره پراخوي.",
+	"aieditingassistant-ui-description-summarize": "ورکړل شوی ليک په يوه کوچني او لنډ پاراگراف کې لنډيز کوي.",
+	"aieditingassistant-ui-description-simplify": "ورکړل شوی ليک ساده کوي او په اسانۍ يې د پوهېدو وړ کوي.",
+	"aieditingassistant-ui-prompt-dialog-submit": "ځايناستول",
+	"aieditingassistant-ui-commandexecution-original": "آر ليک"
+}
