@@ -30,12 +30,12 @@ ext.AIEditingAssistant.ui.CommandExecution.prototype.init = function () {
 
 ext.AIEditingAssistant.ui.CommandExecution.prototype.getHeader = function () {
 	const label = new OO.ui.LabelWidget( {
-			/* eslint-disable-next-line */
+
 			label: mw.msg( this.commandData.data.labelMsg ),
 			classes: [ 'ext-AIEditingAssistant-CommandExecution-header-label' ]
 		} ),
 		description = new OO.ui.LabelWidget( {
-			/* eslint-disable-next-line */
+
 			label: this.commandData.data.descriptionMsg ? mw.msg( this.commandData.data.descriptionMsg ) : '',
 			classes: [ 'ext-AIEditingAssistant-CommandExecution-header-description' ]
 		} );
@@ -81,7 +81,7 @@ ext.AIEditingAssistant.ui.CommandExecution.prototype.getFinalText = function () 
 ext.AIEditingAssistant.ui.CommandExecution.prototype.executeCommand = function () {
 	this.setLoading( true );
 	const msg = this.commandData.data.commandMsg,
-		/* eslint-disable-next-line */
+
 		msgObject = mw.message( msg );
 	/* eslint-disable-next-line */
 	if ( this.commandData.data.hasOwnProperty( 'paramsCallback' ) ) {

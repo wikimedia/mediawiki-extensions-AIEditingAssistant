@@ -39,7 +39,7 @@ ext.AIEditingAssistant.ui.PromptBooklet.prototype.initialize = function () {
 
 		const data = ext.AIEditingAssistant.commandRegistry.registry[ key ];
 		const page = new ext.AIEditingAssistant.ui.CommandExecution( {
-			/* eslint-disable-next-line */
+
 			label: mw.msg( data.labelMsg ),
 			/* eslint-disable-next-line */
 			data: $.extend( data, { key: key } )
@@ -52,7 +52,7 @@ ext.AIEditingAssistant.ui.PromptBooklet.prototype.initialize = function () {
 				this.emit( 'undo' );
 			}
 		} );
-		/* eslint-disable-next-line */
+
 		commands[ key ] = mw.msg( data.labelMsg );
 		pages.push( page );
 	}
