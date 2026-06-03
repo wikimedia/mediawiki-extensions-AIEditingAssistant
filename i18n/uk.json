@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Repakr"
+		]
+	},
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Надіслати",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Розкажіть ШІ, як покращити пропозицію",
+	"aieditingassistant-config-provider-type-none": "Жодного",
+	"aieditingassistant-ui-command-expand": "Зробити довшим",
+	"aieditingassistant-ui-command-summarize": "Підсумувати вміст",
+	"aieditingassistant-ui-command-simplify": "Зробити коротшим",
+	"aieditingassistant-ui-command-paraphrase": "Покращити текст",
+	"aieditingassistant-ui-command-check-grammar": "Виправити граматику та правопис",
+	"aieditingassistant-ui-command-remove-redundancy": "Спростити мову",
+	"aieditingassistant-ui-description-expand": "Розширює наданий текст, додаючи більше деталей та інформації.",
+	"aieditingassistant-ui-description-summarize": "Підсумовує наданий текст у стислий і короткий абзац.",
+	"aieditingassistant-ui-description-simplify": "Спрощує наданий текст, роблячи його легшим для розуміння та сприйняття.",
+	"aieditingassistant-ui-description-paraphrase": "Перефразовує наданий текст, використовуючи інші слова, зберігши при цьому початковий зміст.",
+	"aieditingassistant-ui-description-check-grammar": "Перевіряє граматику та пунктуацію в наданому тексті, забезпечуючи їхню правильність.",
+	"aieditingassistant-ui-description-remove-redundancy": "Вилучає непотрібну або зайву інформацію з наданого тексту.",
+	"aieditingassistant-ui-commandexecution-final": "Пропонована заміна",
+	"aieditingassistant-ui-commandexecution-replace": "Замінити",
+	"aieditingassistant-ui-commandexecution-retry": "Повторити",
+	"aieditingassistant-ui-commandexecution-cancel": "Скасувати",
+	"aieditingassistant-ui-commandexecution-loading": "Генерування...",
+	"aieditingassistant-provider-failure": "Не вдалося виконати запит: $1",
+	"aieditingassistant-provider-no-reponses": "Не вдалося отримати жодних пропозицій, будь ласка, спробуйте ще раз.",
+	"aieditingassistant-config-provider-connection": "Параметри підключення (JSON)",
+	"aieditingassistant-config-provider-type": "Тип постачальника",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Скасувати",
+	"aieditingassistant-ui-prompt-dialog-submit": "Замінити",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Виберіть команду",
+	"aieditingassistant-ui-commandexecution-back": "Повернутися до вибору команд",
+	"aieditingassistant-ui-commandexecution-original": "Оригінальний текст"
+}
