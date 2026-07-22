@@ -9,7 +9,6 @@ use MediaWiki\HTMLForm\Field\HTMLTextAreaField;
 class ProviderConnection extends StringSetting implements IOverwriteGlobal {
 
 	/**
-	 *
 	 * @return array
 	 */
 	public function getPaths() {
@@ -21,7 +20,6 @@ class ProviderConnection extends StringSetting implements IOverwriteGlobal {
 	}
 
 	/**
-	 *
 	 * @return HTMLTextAreaField
 	 */
 	public function getHtmlFormField() {
@@ -29,7 +27,6 @@ class ProviderConnection extends StringSetting implements IOverwriteGlobal {
 	}
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function getLabelMessageKey() {
