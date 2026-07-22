@@ -21,6 +21,9 @@ class PromptHandler extends SimpleHandler {
 		$this->providerFactory = $providerFactory;
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function execute() {
 		try {
 			$provider = $this->providerFactory->getActiveProvider();
