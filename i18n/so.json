@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"aieditingassistant-desc": "Wax ka beddelka ay AI-du ka caawiso VisualEditor",
+	"aieditingassistant-ui-inspector-label": "Kaaliyaha wax ka beddelka AI-ga",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Dir",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "U sheeg AI-ga sida loo hagaajiyo soo jeedinta",
+	"aieditingassistant-config-provider-type-none": "Midna",
+	"aieditingassistant-ui-command-expand": "Ka dhig mid dheer",
+	"aieditingassistant-ui-command-summarize": "Soo koob mawduuca",
+	"aieditingassistant-ui-command-simplify": "Ka dhig mid gaaban",
+	"aieditingassistant-ui-command-paraphrase": "Hagaaji qoraalka",
+	"aieditingassistant-ui-command-check-grammar": "Sax naxwaha iyo higgaadda",
+	"aieditingassistant-ui-command-remove-redundancy": "Fududee luqadda",
+	"aieditingassistant-ui-description-expand": "Waxay ballaarisaa qoraalka la bixiyay iyadoo ku daraysa faahfaahin iyo macluumaad dheeraad ah.",
+	"aieditingassistant-ui-description-summarize": "Waxay qoraalka la bixiyay ku soo koobaysaa faqrado kooban oo gaaban.",
+	"aieditingassistant-ui-description-simplify": "Waxay fududaysaa qoraalka la bixiyay, iyadoo ka dhigaysa mid sahlan in la fahmo oo la garto.",
+	"aieditingassistant-ui-description-paraphrase": "Waxay qoraalka la bixiyay dib ugu dhigaysaa erayo kala duwan iyadoo ilaalinaysa macnihiisii asalka ahaa.",
+	"aieditingassistant-ui-description-check-grammar": "Waxay hubisaa naxwaha iyo calaamadaha xarakaynta qoraalka la bixiyay, iyadoo xaqiijinaysa inay sax yihiin.",
+	"aieditingassistant-ui-description-remove-redundancy": "Waxay qoraalka la bixiyay ka saartaa macluumaadka aan loo baahnayn ama soo noqnoqda.",
+	"aieditingassistant-ui-commandexecution-final": "Beddelka la soo jeediyay",
+	"aieditingassistant-ui-commandexecution-replace": "Ku beddel",
+	"aieditingassistant-ui-commandexecution-retry": "Mar kale isku day",
+	"aieditingassistant-ui-commandexecution-cancel": "Jooji",
+	"aieditingassistant-ui-commandexecution-loading": "Waa la abuurayaa...",
+	"aieditingassistant-ui-commandexecution-undo": "Ka noqo amarkii ugu dambeeyay",
+	"aieditingassistant-provider-failure": "Ku guuldareysatay fulinta codsiga: $1",
+	"aieditingassistant-provider-no-reponses": "Fashilantay helitaanka wax soo jeedin ah, fadlan mar kale isku day",
+	"aieditingassistant-config-provider-connection": "Halbeegyada isku xirka (JSON)",
+	"aieditingassistant-config-provider-type": "Nooca bixiyaha",
+	"aieditingassistant-ui-prompt-dialog-title": "Kaaliyaha wax ka beddelka AI-ga",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Jooji",
+	"aieditingassistant-ui-prompt-dialog-submit": "Ku beddel",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Dooro amar",
+	"aieditingassistant-ui-commandexecution-back": "Ku noqo xulashada amarka",
+	"aieditingassistant-ui-commandexecution-original": "Qoraalka asalka ah"
+}
