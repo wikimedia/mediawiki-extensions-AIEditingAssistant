@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"PanWor"
+		]
+	},
+	"aieditingassistant-desc": "Edycja wspomagana przez sztuczną inteligencję w edytorze wizualnym",
+	"aieditingassistant-ui-inspector-label": "Asystent edycji SI",
+	"aieditingassistant-ui-commandexecution-ask-more-submit": "Wyślij",
+	"aieditingassistant-ui-commandexecution-ask-more-label": "Powiedz SI, jak ulepszyć tę sugestię",
+	"aieditingassistant-config-provider-type-none": "Brak",
+	"aieditingassistant-ui-command-expand": "Wydłuż tekst",
+	"aieditingassistant-ui-command-summarize": "Podsumuj treść",
+	"aieditingassistant-ui-command-simplify": "Skróć tekst",
+	"aieditingassistant-ui-command-paraphrase": "Popraw styl",
+	"aieditingassistant-ui-command-check-grammar": "Popraw gramatykę i ortografię",
+	"aieditingassistant-ui-command-remove-redundancy": "Uprość język",
+	"aieditingassistant-ui-description-expand": "Rozwija dany tekst, dodając więcej szczegółów i informacji.",
+	"aieditingassistant-ui-description-summarize": "Streszcza dany tekst w zwięzły i krótki akapit.",
+	"aieditingassistant-ui-description-simplify": "Upraszcza dany tekst, ułatwiając jego zrozumienie i przyswojenie.",
+	"aieditingassistant-ui-description-paraphrase": "Przeformułowuje dany tekst, używając innych słów, zachowując jednocześnie oryginalne znaczenie.",
+	"aieditingassistant-ui-description-check-grammar": "Sprawdza gramatykę i interpunkcję w danym tekście, zapewniając poprawność.",
+	"aieditingassistant-ui-description-remove-redundancy": "Usuwa zbędne lub powtarzające się informacje z danego tekstu.",
+	"aieditingassistant-ui-commandexecution-final": "Sugerowana zmiana",
+	"aieditingassistant-ui-commandexecution-replace": "Zastąp",
+	"aieditingassistant-ui-commandexecution-retry": "Ponów próbę",
+	"aieditingassistant-ui-commandexecution-cancel": "Anuluj",
+	"aieditingassistant-ui-commandexecution-loading": "Generowanie…",
+	"aieditingassistant-ui-commandexecution-undo": "Cofnij ostatnie polecenie",
+	"aieditingassistant-provider-failure": "Nie udało się wykonać żądania: $1",
+	"aieditingassistant-provider-no-reponses": "Nie udało się pobrać sugestii, spróbuj ponownie",
+	"aieditingassistant-config-provider-connection": "Parametry połączenia (JSON)",
+	"aieditingassistant-config-provider-type": "Rodzaj dostawcy",
+	"aieditingassistant-ui-prompt-dialog-title": "Asystent edycji SI",
+	"aieditingassistant-ui-prompt-dialog-cancel": "Anuluj",
+	"aieditingassistant-ui-prompt-dialog-submit": "Zastąp",
+	"aieditingassistant-ui-prompt-dialog-command-selection-header": "Wybierz polecenie",
+	"aieditingassistant-ui-commandexecution-back": "Wróć do wyboru polecenia",
+	"aieditingassistant-ui-commandexecution-original": "Pierwotny tekst"
+}
