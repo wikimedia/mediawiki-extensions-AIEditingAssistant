@@ -24,7 +24,7 @@ class ProviderType extends ArraySetting implements IOverwriteGlobal {
 	public static function getInstance( $context, $config, $name ) {
 		$callback = static::class;
 		return new $callback(
-			MediawikiServices::getInstance()->getService( 'AIEditingAssistant.ProviderFactory' ),
+			MediaWikiServices::getInstance()->getService( 'AIEditingAssistant.ProviderFactory' ),
 			$context,
 			$config,
 			$name
